@@ -1,0 +1,303 @@
+Tpftp_basic
+v7
+r0
+t316188664.926627
+cCheck dependencies
+cCompileC build/pftp_basic.build/Debug/pftp_basic.build/Objects-normal/x86_64/main.o /Users/richard/Documents/XCODE3_DEV/pftp_basic/main.cpp normal x86_64 c++ com.apple.compilers.gcc.4_2
+cCompileC build/pftp_basic.build/Debug/pftp_basic.build/Objects-normal/x86_64/tcp.o /Users/richard/Documents/XCODE3_DEV/pftp_basic/../../../Desktop/pftp-shit.v.1.12/src/tcp.cc normal x86_64 c++ com.apple.compilers.gcc.4_2
+cCompileC build/pftp_basic.build/Debug/pftp_basic.build/Objects-normal/x86_64/tlsutil.o /Users/richard/Documents/XCODE3_DEV/pftp_basic/../../../Desktop/pftp-shit.v.1.12/src/tlsutil.cc normal x86_64 c++ com.apple.compilers.gcc.4_2
+
+N/Developer/SDKs/MacOSX10.6.sdk
+c000000004BF4701900000000000000EE
+t1274310681
+s238
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/arpa/inet.h
+c000000004AC598620000000000001533
+t1254463586
+s5427
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/assert.h
+c000000004AC59C810000000000000DCB
+t1254464641
+s3531
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/curses.h
+c000000004B90C851000000000001388E
+t1267779665
+s80014
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/errno.h
+c000000004AC59C8100000000000003EB
+t1254464641
+s1003
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/fcntl.h
+c000000004AC59C8100000000000003EA
+t1254464641
+s1002
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/net/if.h
+c000000004B90BBA400000000000034A5
+t1267776420
+s13477
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/netdb.h
+c000000004AC598B10000000000003057
+t1254463665
+s12375
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/netinet/in.h
+c000000004B90BBA5000000000000539D
+t1267776421
+s21405
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/openssl/err.h
+c000000004B90E7720000000000003299
+t1267787634
+s12953
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/openssl/rand.h
+c000000004B90E7720000000000001862
+t1267787634
+s6242
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/openssl/ssl.h
+c000000004B90E7A40000000000014965
+t1267787684
+s84325
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/panel.h
+c000000004B90C8530000000000000EBA
+t1267779667
+s3770
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/pthread.h
+c000000004AC59C8100000000000038F0
+t1254464641
+s14576
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/signal.h
+c000000004AC59C8200000000000014F0
+t1254464642
+s5360
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/stdio.h
+c000000004AC59C820000000000004174
+t1254464642
+s16756
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/stdlib.h
+c000000004AC59C820000000000002DF5
+t1254464642
+s11765
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/string.h
+c000000004AC59C820000000000001731
+t1254464642
+s5937
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/sys/ioctl.h
+c000000004B90BBA8000000000000116C
+t1267776424
+s4460
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/sys/select.h
+c000000004B90BBAA00000000000016A2
+t1267776426
+s5794
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/sys/socket.h
+c000000004B90BBAA00000000000059BC
+t1267776426
+s22972
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/sys/stat.h
+c000000004B90BBAA0000000000004A1D
+t1267776426
+s18973
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/sys/time.h
+c000000004B90BBAA0000000000001E17
+t1267776426
+s7703
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/sys/types.h
+c000000004B90BBAB0000000000002905
+t1267776427
+s10501
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/unistd.h
+c000000004AC59C82000000000000563E
+t1254464642
+s22078
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/lib/gcc/i686-apple-darwin10/4.2.1/include/stdarg.h
+c000000004AC59DB700000000000010DD
+t1254464951
+s4317
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/lib/gcc/i686-apple-darwin10/4.2.1/include/varargs.h
+c000000004AC59DB7000000000000008B
+t1254464951
+s139
+
+N/Users/richard/Documents/XCODE3_DEV/pftp_basic/../../../Desktop/pftp-shit.v.1.12/include/tcp.h
+c00000000451BDC6C0000000000000C70
+t1159453804
+s3184
+i<sys/socket.h>
+i<arpa/inet.h>
+i<netinet/in.h>
+i<pthread.h>
+i<sys/time.h>
+i<unistd.h>
+i<string.h>
+i<openssl/ssl.h>
+
+N/Users/richard/Documents/XCODE3_DEV/pftp_basic/../../../Desktop/pftp-shit.v.1.12/include/tlsutil.h
+c00000000451BDC6C000000000000066D
+t1159453804
+s1645
+
+N/Users/richard/Documents/XCODE3_DEV/pftp_basic/../../../Desktop/pftp-shit.v.1.12/src/tcp.cc
+c00000000451BDC6C0000000000009019
+t1159453804
+s36889
+i<assert.h>
+i<stdlib.h>
+i<netdb.h>
+i<sys/time.h>
+i<sys/types.h>
+i<unistd.h>
+i<fcntl.h>
+i<string.h>
+i<stdio.h>
+i<signal.h>
+i<sys/ioctl.h>
+i<sys/types.h>
+i<sys/stat.h>
+i<curses.h>
+i<panel.h>
+i<sys/socket.h>
+i<sys/select.h>
+i<net/if.h>
+i<errno.h>
+i"defines.h"
+i"tcp.h"
+i"tlsutil.h"
+i<openssl/ssl.h>
+
+N/Users/richard/Documents/XCODE3_DEV/pftp_basic/../../../Desktop/pftp-shit.v.1.12/src/tlsutil.cc
+c00000000451BDC6C0000000000001902
+t1159453804
+s6402
+i<unistd.h>
+i<openssl/ssl.h>
+i<openssl/err.h>
+i<openssl/rand.h>
+i<stdarg.h>
+i<varargs.h>
+
+N/Users/richard/Documents/XCODE3_DEV/pftp_basic/build/Debug/pftp_basic
+t2
+s0
+
+N/Users/richard/Documents/XCODE3_DEV/pftp_basic/build/pftp_basic.build/Debug/pftp_basic.build/Objects-normal/x86_64/main.o
+t1294495864
+s66992
+
+N/Users/richard/Documents/XCODE3_DEV/pftp_basic/build/pftp_basic.build/Debug/pftp_basic.build/Objects-normal/x86_64/pftp_basic.LinkFileList
+c000000004D2870780000000000000170
+t1294495864
+s368
+
+N/Users/richard/Documents/XCODE3_DEV/pftp_basic/build/pftp_basic.build/Debug/pftp_basic.build/Objects-normal/x86_64/tcp.o
+t2
+s0
+
+N/Users/richard/Documents/XCODE3_DEV/pftp_basic/build/pftp_basic.build/Debug/pftp_basic.build/Objects-normal/x86_64/tlsutil.o
+t1294495864
+s33884
+
+N/Users/richard/Documents/XCODE3_DEV/pftp_basic/main.cpp
+c000000004D287036000000000000008F
+t1294495798
+s143
+i<iostream>
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies316188664#316188664#0(0"0(0#1#0"8247620834010738688#0"0#
+
+CCompileC build/pftp_basic.build/Debug/pftp_basic.build/Objects-normal/x86_64/main.o /Users/richard/Documents/XCODE3_DEV/pftp_basic/main.cpp normal x86_64 c++ com.apple.compilers.gcc.4_2
+s316188664.189263
+e316188664.926523
+r1
+xCompileC
+xbuild/pftp_basic.build/Debug/pftp_basic.build/Objects-normal/x86_64/main.o
+x/Users/richard/Documents/XCODE3_DEV/pftp_basic/main.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@63"Compile /Users/richard/Documents/XCODE3_DEV/pftp_basic/main.cpp316188664#316188664#0(0"0(0#0#55"/Users/richard/Documents/XCODE3_DEV/pftp_basic/main.cpp8660259774160596992#1433"    cd /Users/richard/Documents/XCODE3_DEV/pftp_basic    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/richard/Documents/XCODE3_DEV/pftp_basic/build/pftp_basic.build/Debug/pftp_basic.build/pftp_basic-generated-files.hmap -I/Users/richard/Documents/XCODE3_DEV/pftp_basic/build/pftp_basic.build/Debug/pftp_basic.build/pftp_basic-own-target-headers.hmap -I/Users/richard/Documents/XCODE3_DEV/pftp_basic/build/pftp_basic.build/Debug/pftp_basic.build/pftp_basic-all-target-headers.hmap -iquote /Users/richard/Documents/XCODE3_DEV/pftp_basic/build/pftp_basic.build/Debug/pftp_basic.build/pftp_basic-project-headers.hmap -F/Users/richard/Documents/XCODE3_DEV/pftp_basic/build/Debug -I/Users/richard/Documents/XCODE3_DEV/pftp_basic/build/Debug/include -I/Users/richard/Documents/XCODE3_DEV/pftp_basic/build/pftp_basic.build/Debug/pftp_basic.build/DerivedSources/x86_64 -I/Users/richard/Documents/XCODE3_DEV/pftp_basic/build/pftp_basic.build/Debug/pftp_basic.build/DerivedSources -c /Users/richard/Documents/XCODE3_DEV/pftp_basic/main.cpp -o /Users/richard/Documents/XCODE3_DEV/pftp_basic/build/pftp_basic.build/Debug/pftp_basic.build/Objects-normal/x86_64/main.o0#
+
+CCompileC build/pftp_basic.build/Debug/pftp_basic.build/Objects-normal/x86_64/tcp.o /Users/richard/Documents/XCODE3_DEV/pftp_basic/../../../Desktop/pftp-shit.v.1.12/src/tcp.cc normal x86_64 c++ com.apple.compilers.gcc.4_2
+s316188664.200841
+e316188664.823397
+r0
+xCompileC
+xbuild/pftp_basic.build/Debug/pftp_basic.build/Objects-normal/x86_64/tcp.o
+x/Users/richard/Documents/XCODE3_DEV/pftp_basic/../../../Desktop/pftp-shit.v.1.12/src/tcp.cc
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.gcc.4_2
+o/Users/richard/Documents/XCODE3_DEV/pftp_basic/../../../Desktop/pftp-shit.v.1.12/src/tcp.cc:21:21: error: defines.h: No such file or directory
+oIn file included from /Users/richard/Documents/XCODE3_DEV/pftp_basic/../../../Desktop/pftp-shit.v.1.12/src/tcp.cc:22:
+o/Users/richard/Documents/XCODE3_DEV/pftp_basic/../../../Desktop/pftp-shit.v.1.12/include/tcp.h:33: error: 'LOG_LINES' was not declared in this scope
+o/Users/richard/Documents/XCODE3_DEV/pftp_basic/../../../Desktop/pftp-shit.v.1.12/include/tcp.h:43: error: ISO C++ forbids declaration of 'XDUPELIST' with no type
+o/Users/richard/Documents/XCODE3_DEV/pftp_basic/../../../Desktop/pftp-shit.v.1.12/include/tcp.h:43: error: expected ';' before '*' token
+o/Users/richard/Documents/XCODE3_DEV/pftp_basic/../../../Desktop/pftp-shit.v.1.12/include/tcp.h:67: error: 'BOOKMARK' has not been declared
+o/Users/richard/Documents/XCODE3_DEV/pftp_basic/../../../Desktop/pftp-shit.v.1.12/include/tcp.h:74: error: 'LOG_LINES' was not declared in this scope
+o/Users/richard/Documents/XCODE3_DEV/pftp_basic/../../../Desktop/pftp-shit.v.1.12/include/tcp.h:104: error: ISO C++ forbids declaration of 'XDUPELIST' with no type
+o/Users/richard/Documents/XCODE3_DEV/pftp_basic/../../../Desktop/pftp-shit.v.1.12/include/tcp.h:104: error: expected ';' before '*' token
+o/Users/richard/Documents/XCODE3_DEV/pftp_basic/../../../Desktop/pftp-shit.v.1.12/src/tcp.cc: In constructor 'CTCP::CTCP()':
+o/Users/richard/Documents/XCODE3_DEV/pftp_basic/../../../Desktop/pftp-shit.v.1.12/src/tcp.cc:76: error: 'LOG_LINES' was not declared in this scope
+o/Users/richard/Documents/XCODE3_DEV/pftp_basic/../../../Desktop/pftp-shit.v.1.12/src/tcp.cc:77: error: 'class CTCP' has no member named 'log'
+o/Users/richard/Documents/XCODE3_DEV/pftp_basic/../../../Desktop/pftp-shit.v.1.12/src/tcp.cc:92: error: 'class CTCP' has no member named 'xdupehead'
+o/Users/richard/Documents/XCODE3_DEV/pftp_basic/../../../Desktop/pftp-shit.v.1.12/src/tcp.cc: In destructor 'CTCP::~CTCP()':
+o/Users/richard/Documents/XCODE3_DEV/pftp_basic/../../../Desktop/pftp-shit.v.1.12/src/tcp.cc:101: error: 'XDUPELIST' was not declared in this scope
+o/Users/richard/Documents/XCODE3_DEV/pftp_basic/../../../Desktop/pftp-shit.v.1.12/src/tcp.cc:101: error: 'xtmp' was not declared in this scope
+o/Users/richard/Documents/XCODE3_DEV/pftp_basic/../../../Desktop/pftp-shit.v.1.12/src/tcp.cc:106: error: 'LOG_LINES' was not declared in this scope
+o/Users/richard/Documents/XCODE3_DEV/pftp_basic/../../../Desktop/pftp-shit.v.1.12/src/tcp.cc:107: error: 'log' was not declared in this scope
+o/Users/richard/Documents/XCODE3_DEV/pftp_basic/../../../Desktop/pftp-shit.v.1.12/src/tcp.cc:109: error: 'xdupehead' was not declared in this scope
+o/Users/richard/Documents/XCODE3_DEV/pftp_basic/../../../Desktop/pftp-shit.v.1.12/src/tcp.cc:110: error: 'class CTCP' has no member named 'xdupehead'
+o/Users/richard/Documents/XCODE3_DEV/pftp_basic/../../../Desktop/pftp-shit.v.1.12/src/tcp.cc:111: error: 'class CTCP' has no member named 'xdupehead'
+o/Users/richard/Documents/XCODE3_DEV/pftp_basic/../../../Desktop/pftp-shit.v.1.12/src/tcp.cc:113: error: type '<type error>' argument given to 'delete', expected pointer
+o/Users/richard/Documents/XCODE3_DEV/pftp_basic/../../../Desktop/pftp-shit.v.1.12/src/tcp.cc: In member function 'bool CTCP::GetIP(char*, in_addr*)':
+o/Users/richard/Documents/XCODE3_DEV/pftp_basic/../../../Desktop/pftp-shit.v.1.12/src/tcp.cc:141: error: 'E_CTRL_ADDRESS_RESOLVE' was not declared in this scope
+o/Users/richard/Documents/XCODE3_DEV/pftp_basic/../../../Desktop/pftp-shit.v.1.12/src/tcp.cc: At global scope:
+o/Users/richard/Documents/XCODE3_DEV/pftp_basic/../../../Desktop/pftp-shit.v.1.12/src/tcp.cc:150: error: 'bool CTCP::OpenControl' is not a static member of 'class CTCP'
+o/Users/richard/Documents/XCODE3_DEV/pftp_basic/../../../Desktop/pftp-shit.v.1.12/src/tcp.cc:150: error: 'BOOKMARK' was not declared in this scope
+o/Users/richard/Documents/XCODE3_DEV/pftp_basic/../../../Desktop/pftp-shit.v.1.12/src/tcp.cc:150: error: 'bm' was not declared in this scope
+o/Users/richard/Documents/XCODE3_DEV/pftp_basic/../../../Desktop/pftp-shit.v.1.12/src/tcp.cc:150: error: expected ',' or ';' before '{' token
+lSLF07#2@99"Compile /Users/richard/Documents/XCODE3_DEV/pftp_basic/../../../Desktop/pftp-shit.v.1.12/src/tcp.cc316188664#316188664#0(4185"/Users/richard/Documents/XCODE3_DEV/pftp_basic/../../../Desktop/pftp-shit.v.1.12/src/tcp.cc:21:21: error: defines.h: No such file or directoryIn file included from /Users/richard/Documents/XCODE3_DEV/pftp_basic/../../../Desktop/pftp-shit.v.1.12/src/tcp.cc:22:/Users/richard/Documents/XCODE3_DEV/pftp_basic/../../../Desktop/pftp-shit.v.1.12/include/tcp.h:33: error: 'LOG_LINES' was not declared in this scope/Users/richard/Documents/XCODE3_DEV/pftp_basic/../../../Desktop/pftp-shit.v.1.12/include/tcp.h:43: error: ISO C++ forbids declaration of 'XDUPELIST' with no type/Users/richard/Documents/XCODE3_DEV/pftp_basic/../../../Desktop/pftp-shit.v.1.12/include/tcp.h:43: error: expected ';' before '*' token/Users/richard/Documents/XCODE3_DEV/pftp_basic/../../../Desktop/pftp-shit.v.1.12/include/tcp.h:67: error: 'BOOKMARK' has not been declared/Users/richard/Documents/XCODE3_DEV/pftp_basic/../../../Desktop/pftp-shit.v.1.12/include/tcp.h:74: error: 'LOG_LINES' was not declared in this scope/Users/richard/Documents/XCODE3_DEV/pftp_basic/../../../Desktop/pftp-shit.v.1.12/include/tcp.h:104: error: ISO C++ forbids declaration of 'XDUPELIST' with no type/Users/richard/Documents/XCODE3_DEV/pftp_basic/../../../Desktop/pftp-shit.v.1.12/include/tcp.h:104: error: expected ';' before '*' token/Users/richard/Documents/XCODE3_DEV/pftp_basic/../../../Desktop/pftp-shit.v.1.12/src/tcp.cc: In constructor 'CTCP::CTCP()':/Users/richard/Documents/XCODE3_DEV/pftp_basic/../../../Desktop/pftp-shit.v.1.12/src/tcp.cc:76: error: 'LOG_LINES' was not declared in this scope/Users/richard/Documents/XCODE3_DEV/pftp_basic/../../../Desktop/pftp-shit.v.1.12/src/tcp.cc:77: error: 'class CTCP' has no member named 'log'/Users/richard/Documents/XCODE3_DEV/pftp_basic/../../../Desktop/pftp-shit.v.1.12/src/tcp.cc:92: error: 'class CTCP' has no member named 'xdupehead'/Users/richard/Documents/XCODE3_DEV/pftp_basic/../../../Desktop/pftp-shit.v.1.12/src/tcp.cc: In destructor 'CTCP::~CTCP()':/Users/richard/Documents/XCODE3_DEV/pftp_basic/../../../Desktop/pftp-shit.v.1.12/src/tcp.cc:101: error: 'XDUPELIST' was not declared in this scope/Users/richard/Documents/XCODE3_DEV/pftp_basic/../../../Desktop/pftp-shit.v.1.12/src/tcp.cc:101: error: 'xtmp' was not declared in this scope/Users/richard/Documents/XCODE3_DEV/pftp_basic/../../../Desktop/pftp-shit.v.1.12/src/tcp.cc:106: error: 'LOG_LINES' was not declared in this scope/Users/richard/Documents/XCODE3_DEV/pftp_basic/../../../Desktop/pftp-shit.v.1.12/src/tcp.cc:107: error: 'log' was not declared in this scope/Users/richard/Documents/XCODE3_DEV/pftp_basic/../../../Desktop/pftp-shit.v.1.12/src/tcp.cc:109: error: 'xdupehead' was not declared in this scope/Users/richard/Documents/XCODE3_DEV/pftp_basic/../../../Desktop/pftp-shit.v.1.12/src/tcp.cc:110: error: 'class CTCP' has no member named 'xdupehead'/Users/richard/Documents/XCODE3_DEV/pftp_basic/../../../Desktop/pftp-shit.v.1.12/src/tcp.cc:111: error: 'class CTCP' has no member named 'xdupehead'/Users/richard/Documents/XCODE3_DEV/pftp_basic/../../../Desktop/pftp-shit.v.1.12/src/tcp.cc:113: error: type '<type error>' argument given to 'delete', expected pointer/Users/richard/Documents/XCODE3_DEV/pftp_basic/../../../Desktop/pftp-shit.v.1.12/src/tcp.cc: In member function 'bool CTCP::GetIP(char*, in_addr*)':/Users/richard/Documents/XCODE3_DEV/pftp_basic/../../../Desktop/pftp-shit.v.1.12/src/tcp.cc:141: error: 'E_CTRL_ADDRESS_RESOLVE' was not declared in this scope/Users/richard/Documents/XCODE3_DEV/pftp_basic/../../../Desktop/pftp-shit.v.1.12/src/tcp.cc: At global scope:/Users/richard/Documents/XCODE3_DEV/pftp_basic/../../../Desktop/pftp-shit.v.1.12/src/tcp.cc:150: error: 'bool CTCP::OpenControl' is not a static member of 'class CTCP'/Users/richard/Documents/XCODE3_DEV/pftp_basic/../../../Desktop/pftp-shit.v.1.12/src/tcp.cc:150: error: 'BOOKMARK' was not declared in this scope/Users/richard/Documents/XCODE3_DEV/pftp_basic/../../../Desktop/pftp-shit.v.1.12/src/tcp.cc:150: error: 'bm' was not declared in this scope/Users/richard/Documents/XCODE3_DEV/pftp_basic/../../../Desktop/pftp-shit.v.1.12/src/tcp.cc:150: error: expected ',' or ';' before '{' token25(4@36"Defines.h: No such file or directory316188664#0#143#0(6@91"/Users/richard/Documents/XCODE3_DEV/pftp_basic/../../../Desktop/pftp-shit.v.1.12/src/tcp.cc181146604#21#0#21#0#28"*: No such file or directory0(4@42"'LOG_LINES' was not declared in this scope316188664#261#149#2(7@113"In file included from /Users/richard/Documents/XCODE3_DEV/pftp_basic/../../../Desktop/pftp-shit.v.1.12/src/tcp.cc316188664#18446744073709551615#0#0(6@91"/Users/richard/Documents/XCODE3_DEV/pftp_basic/../../../Desktop/pftp-shit.v.1.12/src/tcp.cc181146604#22#0#22#0#0"0(13@140"'LOG_LINES' was not declared in this scope in /Users/richard/Documents/XCODE3_DEV/pftp_basic/../../../Desktop/pftp-shit.v.1.12/include/tcp.h316188664#18446744073709551615#0#0(6@94"/Users/richard/Documents/XCODE3_DEV/pftp_basic/../../../Desktop/pftp-shit.v.1.12/include/tcp.h181146604#33#0#33#0#0"0(6@94"/Users/richard/Documents/XCODE3_DEV/pftp_basic/../../../Desktop/pftp-shit.v.1.12/include/tcp.h181146604#33#0#33#0#34"'*' was not declared in this scope0(4@55"ISO C++ forbids declaration of 'XDUPELIST' with no type316188664#410#162#2(7@113"In file included from /Users/richard/Documents/XCODE3_DEV/pftp_basic/../../../Desktop/pftp-shit.v.1.12/src/tcp.cc316188664#18446744073709551615#0#0(6@91"/Users/richard/Documents/XCODE3_DEV/pftp_basic/../../../Desktop/pftp-shit.v.1.12/src/tcp.cc181146604#22#0#22#0#0"0(13@153"ISO C++ forbids declaration of 'XDUPELIST' with no type in /Users/richard/Documents/XCODE3_DEV/pftp_basic/../../../Desktop/pftp-shit.v.1.12/include/tcp.h316188664#18446744073709551615#0#0(6@94"/Users/richard/Documents/XCODE3_DEV/pftp_basic/../../../Desktop/pftp-shit.v.1.12/include/tcp.h181146604#43#0#43#0#0"0(6@94"/Users/richard/Documents/XCODE3_DEV/pftp_basic/../../../Desktop/pftp-shit.v.1.12/include/tcp.h181146604#43#0#43#0#47"ISO C++ forbids declaration of '*' with no type0(4@29"Expected ';' before '*' token316188664#572#136#2(7@113"In file included from /Users/richard/Documents/XCODE3_DEV/pftp_basic/../../../Desktop/pftp-shit.v.1.12/src/tcp.cc316188664#18446744073709551615#0#0(6@91"/Users/richard/Documents/XCODE3_DEV/pftp_basic/../../../Desktop/pftp-shit.v.1.12/src/tcp.cc181146604#22#0#22#0#0"0(13@127"Expected ';' before '*' token in /Users/richard/Documents/XCODE3_DEV/pftp_basic/../../../Desktop/pftp-shit.v.1.12/include/tcp.h316188664#18446744073709551615#0#0(6@94"/Users/richard/Documents/XCODE3_DEV/pftp_basic/../../../Desktop/pftp-shit.v.1.12/include/tcp.h181146604#43#0#43#0#0"0(6@94"/Users/richard/Documents/XCODE3_DEV/pftp_basic/../../../Desktop/pftp-shit.v.1.12/include/tcp.h181146604#43#0#43#0#19"expected * before *0(4@32"'BOOKMARK' has not been declared316188664#708#139#2(7@113"In file included from /Users/richard/Documents/XCODE3_DEV/pftp_basic/../../../Desktop/pftp-shit.v.1.12/src/tcp.cc316188664#18446744073709551615#0#0(6@91"/Users/richard/Documents/XCODE3_DEV/pftp_basic/../../../Desktop/pftp-shit.v.1.12/src/tcp.cc181146604#22#0#22#0#0"0(13@130"'BOOKMARK' has not been declared in /Users/richard/Documents/XCODE3_DEV/pftp_basic/../../../Desktop/pftp-shit.v.1.12/include/tcp.h316188664#18446744073709551615#0#0(6@94"/Users/richard/Documents/XCODE3_DEV/pftp_basic/../../../Desktop/pftp-shit.v.1.12/include/tcp.h181146604#67#0#67#0#0"0(6@94"/Users/richard/Documents/XCODE3_DEV/pftp_basic/../../../Desktop/pftp-shit.v.1.12/include/tcp.h181146604#67#0#67#0#25"'*' has not been declared0(4@42"'LOG_LINES' was not declared in this scope316188664#847#149#2(7@113"In file included from /Users/richard/Documents/XCODE3_DEV/pftp_basic/../../../Desktop/pftp-shit.v.1.12/src/tcp.cc316188664#18446744073709551615#0#0(6@91"/Users/richard/Documents/XCODE3_DEV/pftp_basic/../../../Desktop/pftp-shit.v.1.12/src/tcp.cc181146604#22#0#22#0#0"0(13@140"'LOG_LINES' was not declared in this scope in /Users/richard/Documents/XCODE3_DEV/pftp_basic/../../../Desktop/pftp-shit.v.1.12/include/tcp.h316188664#18446744073709551615#0#0(6@94"/Users/richard/Documents/XCODE3_DEV/pftp_basic/../../../Desktop/pftp-shit.v.1.12/include/tcp.h181146604#74#0#74#0#0"0(6@94"/Users/richard/Documents/XCODE3_DEV/pftp_basic/../../../Desktop/pftp-shit.v.1.12/include/tcp.h181146604#74#0#74#0#34"'*' was not declared in this scope0(4@55"ISO C++ forbids declaration of 'XDUPELIST' with no type316188664#996#163#2(7@113"In file included from /Users/richard/Documents/XCODE3_DEV/pftp_basic/../../../Desktop/pftp-shit.v.1.12/src/tcp.cc316188664#18446744073709551615#0#0(6@91"/Users/richard/Documents/XCODE3_DEV/pftp_basic/../../../Desktop/pftp-shit.v.1.12/src/tcp.cc181146604#22#0#22#0#0"0(13@153"ISO C++ forbids declaration of 'XDUPELIST' with no type in /Users/richard/Documents/XCODE3_DEV/pftp_basic/../../../Desktop/pftp-shit.v.1.12/include/tcp.h316188664#18446744073709551615#0#0(6@94"/Users/richard/Documents/XCODE3_DEV/pftp_basic/../../../Desktop/pftp-shit.v.1.12/include/tcp.h181146604#104#0#104#0#0"0(6@94"/Users/richard/Documents/XCODE3_DEV/pftp_basic/../../../Desktop/pftp-shit.v.1.12/include/tcp.h181146604#104#0#104#0#47"ISO C++ forbids declaration of '*' with no type0(4@29"Expected ';' before '*' token316188664#1159#137#2(7@113"In file included from /Users/richard/Documents/XCODE3_DEV/pftp_basic/../../../Desktop/pftp-shit.v.1.12/src/tcp.cc316188664#18446744073709551615#0#0(6@91"/Users/richard/Documents/XCODE3_DEV/pftp_basic/../../../Desktop/pftp-shit.v.1.12/src/tcp.cc181146604#22#0#22#0#0"0(13@127"Expected ';' before '*' token in /Users/richard/Documents/XCODE3_DEV/pftp_basic/../../../Desktop/pftp-shit.v.1.12/include/tcp.h316188664#18446744073709551615#0#0(6@94"/Users/richard/Documents/XCODE3_DEV/pftp_basic/../../../Desktop/pftp-shit.v.1.12/include/tcp.h181146604#104#0#104#0#0"0(6@94"/Users/richard/Documents/XCODE3_DEV/pftp_basic/../../../Desktop/pftp-shit.v.1.12/include/tcp.h181146604#104#0#104#0#19"expected * before *0(4@42"'LOG_LINES' was not declared in this scope316188664#1420#146#0(6@91"/Users/richard/Documents/XCODE3_DEV/pftp_basic/../../../Desktop/pftp-shit.v.1.12/src/tcp.cc181146604#76#0#76#0#34"'*' was not declared in this scope0(4@38"'class CTCP' has no member named 'log'316188664#1566#142#0(6@91"/Users/richard/Documents/XCODE3_DEV/pftp_basic/../../../Desktop/pftp-shit.v.1.12/src/tcp.cc181146604#77#0#77#0#27"'*' has no member named '*'0(4@44"'class CTCP' has no member named 'xdupehead'316188664#1708#148#0(6@91"/Users/richard/Documents/XCODE3_DEV/pftp_basic/../../../Desktop/pftp-shit.v.1.12/src/tcp.cc181146604#92#0#92#0#27"'*' has no member named '*'0(4@42"'XDUPELIST' was not declared in this scope316188664#1980#147#0(6@91"/Users/richard/Documents/XCODE3_DEV/pftp_basic/../../../Desktop/pftp-shit.v.1.12/src/tcp.cc181146604#101#0#101#0#34"'*' was not declared in this scope0(4@37"'xtmp' was not declared in this scope316188664#2127#142#0(6@91"/Users/richard/Documents/XCODE3_DEV/pftp_basic/../../../Desktop/pftp-shit.v.1.12/src/tcp.cc181146604#101#0#101#0#34"'*' was not declared in this scope0(4@42"'LOG_LINES' was not declared in this scope316188664#2269#147#0(6@91"/Users/richard/Documents/XCODE3_DEV/pftp_basic/../../../Desktop/pftp-shit.v.1.12/src/tcp.cc181146604#106#0#106#0#34"'*' was not declared in this scope0(4@36"'log' was not declared in this scope316188664#2416#141#0(6@91"/Users/richard/Documents/XCODE3_DEV/pftp_basic/../../../Desktop/pftp-shit.v.1.12/src/tcp.cc181146604#107#0#107#0#34"'*' was not declared in this scope0(4@42"'xdupehead' was not declared in this scope316188664#2557#147#0(6@91"/Users/richard/Documents/XCODE3_DEV/pftp_basic/../../../Desktop/pftp-shit.v.1.12/src/tcp.cc181146604#109#0#109#0#34"'*' was not declared in this scope0(4@44"'class CTCP' has no member named 'xdupehead'316188664#2704#149#0(6@91"/Users/richard/Documents/XCODE3_DEV/pftp_basic/../../../Desktop/pftp-shit.v.1.12/src/tcp.cc181146604#110#0#110#0#27"'*' has no member named '*'0(4@44"'class CTCP' has no member named 'xdupehead'316188664#2853#149#0(6@91"/Users/richard/Documents/XCODE3_DEV/pftp_basic/../../../Desktop/pftp-shit.v.1.12/src/tcp.cc181146604#111#0#111#0#27"'*' has no member named '*'0(4@64"Type '<type error>' argument given to 'delete', expected pointer316188664#3002#169#0(6@91"/Users/richard/Documents/XCODE3_DEV/pftp_basic/../../../Desktop/pftp-shit.v.1.12/src/tcp.cc181146604#113#0#113#0#0"0(4@55"'E_CTRL_ADDRESS_RESOLVE' was not declared in this scope316188664#3320#160#0(6@91"/Users/richard/Documents/XCODE3_DEV/pftp_basic/../../../Desktop/pftp-shit.v.1.12/src/tcp.cc181146604#141#0#141#0#34"'*' was not declared in this scope0(23@16"At global scope:316188664#3480#110#0(6@91"/Users/richard/Documents/XCODE3_DEV/pftp_basic/../../../Desktop/pftp-shit.v.1.12/src/tcp.cc181146604#0#0#0#0#0"0(4@63"'bool CTCP::OpenControl' is not a static member of 'class CTCP'316188664#3590#168#0(6@91"/Users/richard/Documents/XCODE3_DEV/pftp_basic/../../../Desktop/pftp-shit.v.1.12/src/tcp.cc181146604#150#0#150#0#0"0(4@41"'BOOKMARK' was not declared in this scope316188664#3758#146#0(6@91"/Users/richard/Documents/XCODE3_DEV/pftp_basic/../../../Desktop/pftp-shit.v.1.12/src/tcp.cc181146604#150#0#150#0#34"'*' was not declared in this scope0(4@35"'bm' was not declared in this scope316188664#3904#140#0(6@91"/Users/richard/Documents/XCODE3_DEV/pftp_basic/../../../Desktop/pftp-shit.v.1.12/src/tcp.cc181146604#150#0#150#0#34"'*' was not declared in this scope0(4@36"Expected ',' or ';' before '{' token316188664#4044#141#0(6@91"/Users/richard/Documents/XCODE3_DEV/pftp_basic/../../../Desktop/pftp-shit.v.1.12/src/tcp.cc181146604#150#0#150#0#19"expected * before *0(0#0#91"/Users/richard/Documents/XCODE3_DEV/pftp_basic/../../../Desktop/pftp-shit.v.1.12/src/tcp.cc8609226304#1468"    cd /Users/richard/Documents/XCODE3_DEV/pftp_basic    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/richard/Documents/XCODE3_DEV/pftp_basic/build/pftp_basic.build/Debug/pftp_basic.build/pftp_basic-generated-files.hmap -I/Users/richard/Documents/XCODE3_DEV/pftp_basic/build/pftp_basic.build/Debug/pftp_basic.build/pftp_basic-own-target-headers.hmap -I/Users/richard/Documents/XCODE3_DEV/pftp_basic/build/pftp_basic.build/Debug/pftp_basic.build/pftp_basic-all-target-headers.hmap -iquote /Users/richard/Documents/XCODE3_DEV/pftp_basic/build/pftp_basic.build/Debug/pftp_basic.build/pftp_basic-project-headers.hmap -F/Users/richard/Documents/XCODE3_DEV/pftp_basic/build/Debug -I/Users/richard/Documents/XCODE3_DEV/pftp_basic/build/Debug/include -I/Users/richard/Documents/XCODE3_DEV/pftp_basic/build/pftp_basic.build/Debug/pftp_basic.build/DerivedSources/x86_64 -I/Users/richard/Documents/XCODE3_DEV/pftp_basic/build/pftp_basic.build/Debug/pftp_basic.build/DerivedSources -c /Users/richard/Documents/XCODE3_DEV/pftp_basic/../../../Desktop/pftp-shit.v.1.12/src/tcp.cc -o /Users/richard/Documents/XCODE3_DEV/pftp_basic/build/pftp_basic.build/Debug/pftp_basic.build/Objects-normal/x86_64/tcp.o1#
+
+CCompileC build/pftp_basic.build/Debug/pftp_basic.build/Objects-normal/x86_64/tlsutil.o /Users/richard/Documents/XCODE3_DEV/pftp_basic/../../../Desktop/pftp-shit.v.1.12/src/tlsutil.cc normal x86_64 c++ com.apple.compilers.gcc.4_2
+s316188664.201813
+e316188664.736485
+r1
+xCompileC
+xbuild/pftp_basic.build/Debug/pftp_basic.build/Objects-normal/x86_64/tlsutil.o
+x/Users/richard/Documents/XCODE3_DEV/pftp_basic/../../../Desktop/pftp-shit.v.1.12/src/tlsutil.cc
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@103"Compile /Users/richard/Documents/XCODE3_DEV/pftp_basic/../../../Desktop/pftp-shit.v.1.12/src/tlsutil.cc316188664#316188664#0(0"0(0#0#95"/Users/richard/Documents/XCODE3_DEV/pftp_basic/../../../Desktop/pftp-shit.v.1.12/src/tlsutil.cc8606855712#1476"    cd /Users/richard/Documents/XCODE3_DEV/pftp_basic    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/richard/Documents/XCODE3_DEV/pftp_basic/build/pftp_basic.build/Debug/pftp_basic.build/pftp_basic-generated-files.hmap -I/Users/richard/Documents/XCODE3_DEV/pftp_basic/build/pftp_basic.build/Debug/pftp_basic.build/pftp_basic-own-target-headers.hmap -I/Users/richard/Documents/XCODE3_DEV/pftp_basic/build/pftp_basic.build/Debug/pftp_basic.build/pftp_basic-all-target-headers.hmap -iquote /Users/richard/Documents/XCODE3_DEV/pftp_basic/build/pftp_basic.build/Debug/pftp_basic.build/pftp_basic-project-headers.hmap -F/Users/richard/Documents/XCODE3_DEV/pftp_basic/build/Debug -I/Users/richard/Documents/XCODE3_DEV/pftp_basic/build/Debug/include -I/Users/richard/Documents/XCODE3_DEV/pftp_basic/build/pftp_basic.build/Debug/pftp_basic.build/DerivedSources/x86_64 -I/Users/richard/Documents/XCODE3_DEV/pftp_basic/build/pftp_basic.build/Debug/pftp_basic.build/DerivedSources -c /Users/richard/Documents/XCODE3_DEV/pftp_basic/../../../Desktop/pftp-shit.v.1.12/src/tlsutil.cc -o /Users/richard/Documents/XCODE3_DEV/pftp_basic/build/pftp_basic.build/Debug/pftp_basic.build/Objects-normal/x86_64/tlsutil.o0#
+
+CLd /Users/richard/Documents/XCODE3_DEV/pftp_basic/build/Debug/pftp_basic normal x86_64
+r0
+

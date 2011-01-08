@@ -1,0 +1,4 @@
+000000004d287036000000000000008f 680d7193e1953951d77ab43399beb967 ffffffffffffffffffffffffffffffff 66992 /Users/richard/Documents/XCODE3_DEV/pftp_basic/build/pftp_basic.build/Debug/pftp_basic.build/Objects-normal/x86_64/main.o
+00000000444efb96000000000001eef4 b78fd819624b40bf2e5f6c97758f34f7 ffffffffffffffffffffffffffffffff 0 /Users/richard/Documents/XCODE3_DEV/pftp_basic/build/pftp_basic.build/Debug/pftp_basic.build/Objects-normal/x86_64/tcp.o
+00000000444ea74a0000000000013cf4 e1f9b27066c4f8574abb947e23ad7771 ffffffffffffffffffffffffffffffff 33884 /Users/richard/Documents/XCODE3_DEV/pftp_basic/build/pftp_basic.build/Debug/pftp_basic.build/Objects-normal/x86_64/tlsutil.o
+ffffffffffffffffffffffffffffffff ffffffffffffffffffffffffffffffff ffffffffffffffffffffffffffffffff 0 /Users/richard/Documents/XCODE3_DEV/pftp_basic/build/Debug/pftp_basic
