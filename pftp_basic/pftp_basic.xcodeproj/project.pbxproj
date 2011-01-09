@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3DFF36A312D9DD380091917D /* FxpSystem.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3DFF36A212D9DD380091917D /* FxpSystem.cpp */; };
+		3DFF36AC12D9E5040091917D /* FtpCommand.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3DFF36AB12D9E5040091917D /* FtpCommand.cpp */; };
+		3DFF372712D9EFAE0091917D /* FtpSession.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3DFF372612D9EFAE0091917D /* FtpSession.cpp */; };
 		79A0B46412D8A84E00867986 /* libssl.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 79A0B46312D8A84E00867986 /* libssl.dylib */; };
 		79A0B46612D8A85E00867986 /* libcrypto.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 79A0B46512D8A85E00867986 /* libcrypto.dylib */; };
 		79DF8AC512D8DBC000503E2B /* tcp.cc in Sources */ = {isa = PBXBuildFile; fileRef = 79DF8AC112D8DBC000503E2B /* tcp.cc */; };
@@ -30,6 +33,12 @@
 
 /* Begin PBXFileReference section */
 		08FB7796FE84155DC02AAC07 /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		3DFF36A112D9DD380091917D /* FxpSystem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FxpSystem.h; sourceTree = "<group>"; };
+		3DFF36A212D9DD380091917D /* FxpSystem.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = FxpSystem.cpp; sourceTree = "<group>"; };
+		3DFF36AA12D9E5040091917D /* FtpCommand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FtpCommand.h; sourceTree = "<group>"; };
+		3DFF36AB12D9E5040091917D /* FtpCommand.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = FtpCommand.cpp; sourceTree = "<group>"; };
+		3DFF372512D9EFAE0091917D /* FtpSession.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FtpSession.h; sourceTree = "<group>"; };
+		3DFF372612D9EFAE0091917D /* FtpSession.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = FtpSession.cpp; sourceTree = "<group>"; };
 		79A0B46312D8A84E00867986 /* libssl.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libssl.dylib; path = usr/lib/libssl.dylib; sourceTree = SDKROOT; };
 		79A0B46512D8A85E00867986 /* libcrypto.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libcrypto.dylib; path = usr/lib/libcrypto.dylib; sourceTree = SDKROOT; };
 		79DF8AC012D8DBC000503E2B /* defines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = defines.h; sourceTree = "<group>"; };
@@ -75,6 +84,12 @@
 				79DF8AC312D8DBC000503E2B /* tlsutil.cc */,
 				79DF8AC412D8DBC000503E2B /* tlsutil.h */,
 				08FB7796FE84155DC02AAC07 /* main.cpp */,
+				3DFF36A112D9DD380091917D /* FxpSystem.h */,
+				3DFF36A212D9DD380091917D /* FxpSystem.cpp */,
+				3DFF36AA12D9E5040091917D /* FtpCommand.h */,
+				3DFF36AB12D9E5040091917D /* FtpCommand.cpp */,
+				3DFF372512D9EFAE0091917D /* FtpSession.h */,
+				3DFF372612D9EFAE0091917D /* FtpSession.cpp */,
 			);
 			name = Source;
 			sourceTree = "<group>";
@@ -141,6 +156,9 @@
 				8DD76F650486A84900D96B5E /* main.cpp in Sources */,
 				79DF8AC512D8DBC000503E2B /* tcp.cc in Sources */,
 				79DF8AC612D8DBC000503E2B /* tlsutil.cc in Sources */,
+				3DFF36A312D9DD380091917D /* FxpSystem.cpp in Sources */,
+				3DFF36AC12D9E5040091917D /* FtpCommand.cpp in Sources */,
+				3DFF372712D9EFAE0091917D /* FtpSession.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

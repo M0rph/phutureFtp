@@ -1,66 +1,68 @@
 Tpftp_basic
 v7
 r0
-t316222490.930696
+t316288580.790115
 cCheck dependencies
-cCompileC build/pftp_basic.build/Debug/pftp_basic.build/Objects-normal/x86_64/main.o /Users/richard/Documents/XCODE3_DEV/pftp_basic/main.cpp normal x86_64 c++ com.apple.compilers.gcc.4_2
-cCompileC build/pftp_basic.build/Debug/pftp_basic.build/Objects-normal/x86_64/tcp.o /Users/richard/Documents/XCODE3_DEV/pftp_basic/tcp.cc normal x86_64 c++ com.apple.compilers.gcc.4_2
-cCompileC build/pftp_basic.build/Debug/pftp_basic.build/Objects-normal/x86_64/tlsutil.o /Users/richard/Documents/XCODE3_DEV/pftp_basic/tlsutil.cc normal x86_64 c++ com.apple.compilers.gcc.4_2
-cLd /Users/richard/Documents/XCODE3_DEV/pftp_basic/build/Debug/pftp_basic normal x86_64
+cCompileC build/pftp_basic.build/Debug/pftp_basic.build/Objects-normal/x86_64/main.o /Users/livingroom/osx_Dev/phutureFtp/pftp_basic/main.cpp normal x86_64 c++ com.apple.compilers.gcc.4_2
+cCompileC build/pftp_basic.build/Debug/pftp_basic.build/Objects-normal/x86_64/tcp.o /Users/livingroom/osx_Dev/phutureFtp/pftp_basic/tcp.cc normal x86_64 c++ com.apple.compilers.gcc.4_2
+cCompileC build/pftp_basic.build/Debug/pftp_basic.build/Objects-normal/x86_64/tlsutil.o /Users/livingroom/osx_Dev/phutureFtp/pftp_basic/tlsutil.cc normal x86_64 c++ com.apple.compilers.gcc.4_2
+cCompileC build/pftp_basic.build/Debug/pftp_basic.build/Objects-normal/x86_64/FxpSystem.o /Users/livingroom/osx_Dev/phutureFtp/pftp_basic/FxpSystem.cpp normal x86_64 c++ com.apple.compilers.gcc.4_2
+cCompileC build/pftp_basic.build/Debug/pftp_basic.build/Objects-normal/x86_64/FtpCommand.o /Users/livingroom/osx_Dev/phutureFtp/pftp_basic/FtpCommand.cpp normal x86_64 c++ com.apple.compilers.gcc.4_2
+cCompileC build/pftp_basic.build/Debug/pftp_basic.build/Objects-normal/x86_64/FtpSession.o /Users/livingroom/osx_Dev/phutureFtp/pftp_basic/FtpSession.cpp normal x86_64 c++ com.apple.compilers.gcc.4_2
 
 N/Developer/SDKs/MacOSX10.6.sdk
-c000000004BF4701900000000000000EE
-t1274310681
+c000000004A769DAB00000000000000EE
+t1249287595
 s238
 
 N/Developer/SDKs/MacOSX10.6.sdk/usr/include/arpa/inet.h
-c000000004AC598620000000000001533
-t1254463586
+c000000004A4180D20000000000001533
+t1245806802
 s5427
 
 N/Developer/SDKs/MacOSX10.6.sdk/usr/include/assert.h
-c000000004AC59C810000000000000DCB
-t1254464641
+c000000004A5C14A60000000000000DCB
+t1247548582
 s3531
 
 N/Developer/SDKs/MacOSX10.6.sdk/usr/include/curses.h
-c000000004B90C851000000000001388E
-t1267779665
+c000000004A11A1CA000000000001388E
+t1242669514
 s80014
 
 N/Developer/SDKs/MacOSX10.6.sdk/usr/include/errno.h
-c000000004AC59C8100000000000003EB
-t1254464641
+c000000004A5C14A600000000000003EB
+t1247548582
 s1003
 
 N/Developer/SDKs/MacOSX10.6.sdk/usr/include/fcntl.h
-c000000004AC59C8100000000000003EA
-t1254464641
+c000000004A5C14A600000000000003EA
+t1247548582
 s1002
 
 N/Developer/SDKs/MacOSX10.6.sdk/usr/include/net/if.h
-c000000004B90BBA400000000000034A5
-t1267776420
+c000000004A73D64A00000000000034A5
+t1249105482
 s13477
 
 N/Developer/SDKs/MacOSX10.6.sdk/usr/include/netdb.h
-c000000004AC598B10000000000003057
-t1254463665
+c000000004A4181220000000000003057
+t1245806882
 s12375
 
 N/Developer/SDKs/MacOSX10.6.sdk/usr/include/netinet/in.h
-c000000004B90BBA5000000000000539D
-t1267776421
+c000000004A73D64C000000000000539D
+t1249105484
 s21405
 
 N/Developer/SDKs/MacOSX10.6.sdk/usr/include/openssl/err.h
-c000000004B90E7720000000000003299
-t1267787634
+c000000004A58360C0000000000003299
+t1247294988
 s12953
 
 N/Developer/SDKs/MacOSX10.6.sdk/usr/include/openssl/rand.h
-c000000004B90E7720000000000001862
-t1267787634
+c000000004A58360D0000000000001862
+t1247294989
 s6242
 
 N/Developer/SDKs/MacOSX10.6.sdk/usr/include/openssl/ssl.h
@@ -69,89 +71,246 @@ t1267787684
 s84325
 
 N/Developer/SDKs/MacOSX10.6.sdk/usr/include/panel.h
-c000000004B90C8530000000000000EBA
-t1267779667
+c000000004A11A1CD0000000000000EBA
+t1242669517
 s3770
 
 N/Developer/SDKs/MacOSX10.6.sdk/usr/include/pthread.h
-c000000004AC59C8100000000000038F0
-t1254464641
+c000000004A5C14A700000000000038F0
+t1247548583
 s14576
 
 N/Developer/SDKs/MacOSX10.6.sdk/usr/include/signal.h
-c000000004AC59C8200000000000014F0
-t1254464642
+c000000004A5C14A700000000000014F0
+t1247548583
 s5360
 
 N/Developer/SDKs/MacOSX10.6.sdk/usr/include/stdio.h
-c000000004AC59C820000000000004174
-t1254464642
+c000000004A5C14A70000000000004174
+t1247548583
 s16756
 
 N/Developer/SDKs/MacOSX10.6.sdk/usr/include/stdlib.h
-c000000004AC59C820000000000002DF5
-t1254464642
+c000000004A5C14A70000000000002DF5
+t1247548583
 s11765
 
 N/Developer/SDKs/MacOSX10.6.sdk/usr/include/string.h
-c000000004AC59C820000000000001731
-t1254464642
+c000000004A5C14A70000000000001731
+t1247548583
 s5937
 
 N/Developer/SDKs/MacOSX10.6.sdk/usr/include/sys/ioctl.h
-c000000004B90BBA8000000000000116C
-t1267776424
+c000000004A73D651000000000000116C
+t1249105489
 s4460
 
 N/Developer/SDKs/MacOSX10.6.sdk/usr/include/sys/select.h
-c000000004B90BBAA00000000000016A2
-t1267776426
+c000000004A73D65400000000000016A2
+t1249105492
 s5794
 
 N/Developer/SDKs/MacOSX10.6.sdk/usr/include/sys/socket.h
-c000000004B90BBAA00000000000059BC
-t1267776426
+c000000004A73D65400000000000059BC
+t1249105492
 s22972
 
 N/Developer/SDKs/MacOSX10.6.sdk/usr/include/sys/stat.h
-c000000004B90BBAA0000000000004A1D
-t1267776426
+c000000004A73D6550000000000004A1D
+t1249105493
 s18973
 
 N/Developer/SDKs/MacOSX10.6.sdk/usr/include/sys/time.h
-c000000004B90BBAA0000000000001E17
-t1267776426
+c000000004A73D6550000000000001E17
+t1249105493
 s7703
 
 N/Developer/SDKs/MacOSX10.6.sdk/usr/include/sys/types.h
-c000000004B90BBAB0000000000002905
-t1267776427
+c000000004A73D6550000000000002905
+t1249105493
 s10501
 
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/time.h
+c000000004A5C14A7000000000000178E
+t1247548583
+s6030
+
 N/Developer/SDKs/MacOSX10.6.sdk/usr/include/unistd.h
-c000000004AC59C82000000000000563E
-t1254464642
+c000000004A5C14A7000000000000563E
+t1247548583
 s22078
 
 N/Developer/SDKs/MacOSX10.6.sdk/usr/lib/gcc/i686-apple-darwin10/4.2.1/include/stdarg.h
-c000000004AC59DB700000000000010DD
-t1254464951
+c000000004A11EB2400000000000010DD
+t1242688292
 s4317
 
 N/Developer/SDKs/MacOSX10.6.sdk/usr/lib/gcc/i686-apple-darwin10/4.2.1/include/varargs.h
-c000000004AC59DB7000000000000008B
-t1254464951
+c000000004A11EB24000000000000008B
+t1242688292
 s139
 
 N/Developer/SDKs/MacOSX10.6.sdk/usr/lib/libcrypto.dylib
-c000000004BF47014000000000007E1FC
-t1274310676
+c000000004C442287000000000007E1FC
+t1279533703
 s516604
 
 N/Developer/SDKs/MacOSX10.6.sdk/usr/lib/libssl.dylib
-c000000004BF47016000000000001E9B8
-t1274310678
+c000000004C442289000000000001E9B8
+t1279533705
 s125368
+
+N/Users/livingroom/osx_Dev/phutureFtp/pftp_basic/FtpCommand.cpp
+c000000004D29DFEF00000000000001DD
+t1294589935
+s477
+i"FtpCommand.h"
+
+N/Users/livingroom/osx_Dev/phutureFtp/pftp_basic/FtpCommand.h
+c000000004D29F3FF0000000000000510
+t1294595071
+s1296
+i<stdio.h>
+i<time.h>
+i"defines.h"
+
+N/Users/livingroom/osx_Dev/phutureFtp/pftp_basic/FtpSession.cpp
+c000000004D29F4AC00000000000007C9
+t1294595244
+s1993
+i"FtpSession.h"
+
+N/Users/livingroom/osx_Dev/phutureFtp/pftp_basic/FtpSession.h
+c000000004D29F4AD0000000000000299
+t1294595245
+s665
+i<iostream>
+i<stdio.h>
+i<time.h>
+i"FtpCommand.h"
+i"defines.h"
+i"tcp.h"
+
+N/Users/livingroom/osx_Dev/phutureFtp/pftp_basic/FxpSystem.cpp
+c000000004D29B6CE0000000000000131
+t1294579406
+s305
+i"FxpSystem.h"
+
+N/Users/livingroom/osx_Dev/phutureFtp/pftp_basic/FxpSystem.h
+c000000004D29B87300000000000001A2
+t1294579827
+s418
+i<stdio.h>
+i<time.h>
+i"defines.h"
+i"FtpCommand.h"
+
+N/Users/livingroom/osx_Dev/phutureFtp/pftp_basic/build/Debug/pftp_basic
+t1294595637
+s63664
+
+N/Users/livingroom/osx_Dev/phutureFtp/pftp_basic/build/pftp_basic.build/Debug/pftp_basic.build/Objects-normal/x86_64/FtpCommand.o
+t1294595245
+s10152
+
+N/Users/livingroom/osx_Dev/phutureFtp/pftp_basic/build/pftp_basic.build/Debug/pftp_basic.build/Objects-normal/x86_64/FtpSession.o
+t1294595246
+s115556
+
+N/Users/livingroom/osx_Dev/phutureFtp/pftp_basic/build/pftp_basic.build/Debug/pftp_basic.build/Objects-normal/x86_64/FxpSystem.o
+t1294595245
+s5104
+
+N/Users/livingroom/osx_Dev/phutureFtp/pftp_basic/build/pftp_basic.build/Debug/pftp_basic.build/Objects-normal/x86_64/main.o
+t2
+s0
+
+N/Users/livingroom/osx_Dev/phutureFtp/pftp_basic/build/pftp_basic.build/Debug/pftp_basic.build/Objects-normal/x86_64/pftp_basic.LinkFileList
+c000000004D29B87300000000000002F5
+t1294579827
+s757
+
+N/Users/livingroom/osx_Dev/phutureFtp/pftp_basic/build/pftp_basic.build/Debug/pftp_basic.build/Objects-normal/x86_64/tcp.o
+t1294574314
+s72136
+
+N/Users/livingroom/osx_Dev/phutureFtp/pftp_basic/build/pftp_basic.build/Debug/pftp_basic.build/Objects-normal/x86_64/tlsutil.o
+t1294574314
+s33804
+
+N/Users/livingroom/osx_Dev/phutureFtp/pftp_basic/defines.h
+c000000004D29A2EA00000000000046CC
+t1294574314
+s18124
+
+N/Users/livingroom/osx_Dev/phutureFtp/pftp_basic/main.cpp
+c000000004D29F6C30000000000000711
+t1294595779
+s1809
+i<iostream>
+i<time.h>
+i"FxpSystem.h"
+i"FtpSession.h"
+i"tcp.h"
+i"tlsutil.h"
+
+N/Users/livingroom/osx_Dev/phutureFtp/pftp_basic/tcp.cc
+c000000004D29A2EA000000000000C40F
+t1294574314
+s50191
+i<assert.h>
+i<stdlib.h>
+i<netdb.h>
+i<sys/time.h>
+i<sys/types.h>
+i<unistd.h>
+i<fcntl.h>
+i<string.h>
+i<stdio.h>
+i<signal.h>
+i<sys/ioctl.h>
+i<sys/types.h>
+i<sys/stat.h>
+i<curses.h>
+i<panel.h>
+i<sys/socket.h>
+i<sys/select.h>
+i<net/if.h>
+i<errno.h>
+i"defines.h"
+i"tcp.h"
+i"tlsutil.h"
+i<openssl/ssl.h>
+
+N/Users/livingroom/osx_Dev/phutureFtp/pftp_basic/tcp.h
+c000000004D29A2EA0000000000000C9D
+t1294574314
+s3229
+i<sys/socket.h>
+i<arpa/inet.h>
+i<netinet/in.h>
+i<pthread.h>
+i<sys/time.h>
+i<unistd.h>
+i<string.h>
+i<openssl/ssl.h>
+
+N/Users/livingroom/osx_Dev/phutureFtp/pftp_basic/tlsutil.cc
+c000000004D29A2EA0000000000001902
+t1294574314
+s6402
+i<unistd.h>
+i<openssl/ssl.h>
+i<openssl/err.h>
+i<openssl/rand.h>
+i<stdarg.h>
+i<varargs.h>
+
+N/Users/livingroom/osx_Dev/phutureFtp/pftp_basic/tlsutil.h
+c000000004D29A2EA000000000000066D
+t1294574314
+s1645
 
 N/Users/richard/Documents/XCODE3_DEV/pftp_basic/../../../Desktop/pftp-shit.v.1.12/include/defines.h
 c000000004D28993D00000000000045C0
@@ -296,7 +455,111 @@ s1645
 
 CCheck dependencies
 r0
-lSLF07#2@18"Check dependencies316222490#316222490#0(0"0(0#1#0"8617163520#0"0#
+lSLF07#2@18"Check dependencies316288580#316288580#0(0"0(0#1#0"8645066080#0"0#
+
+CCompileC build/pftp_basic.build/Debug/pftp_basic.build/Objects-normal/x86_64/FtpCommand.o /Users/livingroom/osx_Dev/phutureFtp/pftp_basic/FtpCommand.cpp normal x86_64 c++ com.apple.compilers.gcc.4_2
+s316288045.303568
+e316288045.372869
+r1
+xCompileC
+xbuild/pftp_basic.build/Debug/pftp_basic.build/Objects-normal/x86_64/FtpCommand.o
+x/Users/livingroom/osx_Dev/phutureFtp/pftp_basic/FtpCommand.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.gcc.4_2
+oIn file included from /Users/livingroom/osx_Dev/phutureFtp/pftp_basic/FtpCommand.cpp:10:
+o/Users/livingroom/osx_Dev/phutureFtp/pftp_basic/FtpCommand.h: In member function 'virtual char* FtpCmdAuthTls::AsString()':
+o/Users/livingroom/osx_Dev/phutureFtp/pftp_basic/FtpCommand.h:61: warning: deprecated conversion from string constant to 'char*'
+o/Users/livingroom/osx_Dev/phutureFtp/pftp_basic/FtpCommand.h: In member function 'virtual char* FtpCmdAsciMode::AsString()':
+o/Users/livingroom/osx_Dev/phutureFtp/pftp_basic/FtpCommand.h:67: warning: deprecated conversion from string constant to 'char*'
+o/Users/livingroom/osx_Dev/phutureFtp/pftp_basic/FtpCommand.h: In member function 'virtual char* FtpCmdBinaryMode::AsString()':
+o/Users/livingroom/osx_Dev/phutureFtp/pftp_basic/FtpCommand.h:73: warning: deprecated conversion from string constant to 'char*'
+o/Users/livingroom/osx_Dev/phutureFtp/pftp_basic/FtpCommand.h: In member function 'virtual char* FtpCmdXDUPE::AsString()':
+o/Users/livingroom/osx_Dev/phutureFtp/pftp_basic/FtpCommand.h:80: warning: deprecated conversion from string constant to 'char*'
+o/Users/livingroom/osx_Dev/phutureFtp/pftp_basic/FtpCommand.h: In member function 'virtual char* FtpCmdQuit::AsString()':
+o/Users/livingroom/osx_Dev/phutureFtp/pftp_basic/FtpCommand.h:86: warning: deprecated conversion from string constant to 'char*'
+lSLF07#2@70"Compile /Users/livingroom/osx_Dev/phutureFtp/pftp_basic/FtpCommand.cpp316288045#316288045#0(1348"In file included from /Users/livingroom/osx_Dev/phutureFtp/pftp_basic/FtpCommand.cpp:10:/Users/livingroom/osx_Dev/phutureFtp/pftp_basic/FtpCommand.h: In member function 'virtual char* FtpCmdAuthTls::AsString()':/Users/livingroom/osx_Dev/phutureFtp/pftp_basic/FtpCommand.h:61: warning: deprecated conversion from string constant to 'char*'/Users/livingroom/osx_Dev/phutureFtp/pftp_basic/FtpCommand.h: In member function 'virtual char* FtpCmdAsciMode::AsString()':/Users/livingroom/osx_Dev/phutureFtp/pftp_basic/FtpCommand.h:67: warning: deprecated conversion from string constant to 'char*'/Users/livingroom/osx_Dev/phutureFtp/pftp_basic/FtpCommand.h: In member function 'virtual char* FtpCmdBinaryMode::AsString()':/Users/livingroom/osx_Dev/phutureFtp/pftp_basic/FtpCommand.h:73: warning: deprecated conversion from string constant to 'char*'/Users/livingroom/osx_Dev/phutureFtp/pftp_basic/FtpCommand.h: In member function 'virtual char* FtpCmdXDUPE::AsString()':/Users/livingroom/osx_Dev/phutureFtp/pftp_basic/FtpCommand.h:80: warning: deprecated conversion from string constant to 'char*'/Users/livingroom/osx_Dev/phutureFtp/pftp_basic/FtpCommand.h: In member function 'virtual char* FtpCmdQuit::AsString()':/Users/livingroom/osx_Dev/phutureFtp/pftp_basic/FtpCommand.h:86: warning: deprecated conversion from string constant to 'char*'5(22@53"Deprecated conversion from string constant to 'char*'316288045#213#128#2(7@84"In file included from /Users/livingroom/osx_Dev/phutureFtp/pftp_basic/FtpCommand.cpp316288045#18446744073709551615#0#0(6@62"/Users/livingroom/osx_Dev/phutureFtp/pftp_basic/FtpCommand.cpp316282735#10#0#10#0#0"0(13@117"Deprecated conversion from string constant to 'char*' in /Users/livingroom/osx_Dev/phutureFtp/pftp_basic/FtpCommand.h316288045#18446744073709551615#0#0(6@60"/Users/livingroom/osx_Dev/phutureFtp/pftp_basic/FtpCommand.h316287871#61#0#61#0#0"0(6@60"/Users/livingroom/osx_Dev/phutureFtp/pftp_basic/FtpCommand.h316287871#61#0#61#0#49"deprecated conversion from string constant to '*'0(22@53"Deprecated conversion from string constant to 'char*'316288045#466#128#2(7@84"In file included from /Users/livingroom/osx_Dev/phutureFtp/pftp_basic/FtpCommand.cpp316288045#18446744073709551615#0#0(6@62"/Users/livingroom/osx_Dev/phutureFtp/pftp_basic/FtpCommand.cpp316282735#10#0#10#0#0"0(13@117"Deprecated conversion from string constant to 'char*' in /Users/livingroom/osx_Dev/phutureFtp/pftp_basic/FtpCommand.h316288045#18446744073709551615#0#0(6@60"/Users/livingroom/osx_Dev/phutureFtp/pftp_basic/FtpCommand.h316287871#67#0#67#0#0"0(6@60"/Users/livingroom/osx_Dev/phutureFtp/pftp_basic/FtpCommand.h316287871#67#0#67#0#49"deprecated conversion from string constant to '*'0(22@53"Deprecated conversion from string constant to 'char*'316288045#721#128#2(7@84"In file included from /Users/livingroom/osx_Dev/phutureFtp/pftp_basic/FtpCommand.cpp316288045#18446744073709551615#0#0(6@62"/Users/livingroom/osx_Dev/phutureFtp/pftp_basic/FtpCommand.cpp316282735#10#0#10#0#0"0(13@117"Deprecated conversion from string constant to 'char*' in /Users/livingroom/osx_Dev/phutureFtp/pftp_basic/FtpCommand.h316288045#18446744073709551615#0#0(6@60"/Users/livingroom/osx_Dev/phutureFtp/pftp_basic/FtpCommand.h316287871#73#0#73#0#0"0(6@60"/Users/livingroom/osx_Dev/phutureFtp/pftp_basic/FtpCommand.h316287871#73#0#73#0#49"deprecated conversion from string constant to '*'0(22@53"Deprecated conversion from string constant to 'char*'316288045#971#128#2(7@84"In file included from /Users/livingroom/osx_Dev/phutureFtp/pftp_basic/FtpCommand.cpp316288045#18446744073709551615#0#0(6@62"/Users/livingroom/osx_Dev/phutureFtp/pftp_basic/FtpCommand.cpp316282735#10#0#10#0#0"0(13@117"Deprecated conversion from string constant to 'char*' in /Users/livingroom/osx_Dev/phutureFtp/pftp_basic/FtpCommand.h316288045#18446744073709551615#0#0(6@60"/Users/livingroom/osx_Dev/phutureFtp/pftp_basic/FtpCommand.h316287871#80#0#80#0#0"0(6@60"/Users/livingroom/osx_Dev/phutureFtp/pftp_basic/FtpCommand.h316287871#80#0#80#0#49"deprecated conversion from string constant to '*'0(22@53"Deprecated conversion from string constant to 'char*'316288045#1220#128#2(7@84"In file included from /Users/livingroom/osx_Dev/phutureFtp/pftp_basic/FtpCommand.cpp316288045#18446744073709551615#0#0(6@62"/Users/livingroom/osx_Dev/phutureFtp/pftp_basic/FtpCommand.cpp316282735#10#0#10#0#0"0(13@117"Deprecated conversion from string constant to 'char*' in /Users/livingroom/osx_Dev/phutureFtp/pftp_basic/FtpCommand.h316288045#18446744073709551615#0#0(6@60"/Users/livingroom/osx_Dev/phutureFtp/pftp_basic/FtpCommand.h316287871#86#0#86#0#0"0(6@60"/Users/livingroom/osx_Dev/phutureFtp/pftp_basic/FtpCommand.h316287871#86#0#86#0#49"deprecated conversion from string constant to '*'0(0#0#62"/Users/livingroom/osx_Dev/phutureFtp/pftp_basic/FtpCommand.cpp8643946112#1456"    cd /Users/livingroom/osx_Dev/phutureFtp/pftp_basic    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/livingroom/osx_Dev/phutureFtp/pftp_basic/build/pftp_basic.build/Debug/pftp_basic.build/pftp_basic-generated-files.hmap -I/Users/livingroom/osx_Dev/phutureFtp/pftp_basic/build/pftp_basic.build/Debug/pftp_basic.build/pftp_basic-own-target-headers.hmap -I/Users/livingroom/osx_Dev/phutureFtp/pftp_basic/build/pftp_basic.build/Debug/pftp_basic.build/pftp_basic-all-target-headers.hmap -iquote /Users/livingroom/osx_Dev/phutureFtp/pftp_basic/build/pftp_basic.build/Debug/pftp_basic.build/pftp_basic-project-headers.hmap -F/Users/livingroom/osx_Dev/phutureFtp/pftp_basic/build/Debug -I/Users/livingroom/osx_Dev/phutureFtp/pftp_basic/build/Debug/include -I/Users/livingroom/osx_Dev/phutureFtp/pftp_basic/build/pftp_basic.build/Debug/pftp_basic.build/DerivedSources/x86_64 -I/Users/livingroom/osx_Dev/phutureFtp/pftp_basic/build/pftp_basic.build/Debug/pftp_basic.build/DerivedSources -c /Users/livingroom/osx_Dev/phutureFtp/pftp_basic/FtpCommand.cpp -o /Users/livingroom/osx_Dev/phutureFtp/pftp_basic/build/pftp_basic.build/Debug/pftp_basic.build/Objects-normal/x86_64/FtpCommand.o0#
+
+CCompileC build/pftp_basic.build/Debug/pftp_basic.build/Objects-normal/x86_64/FtpSession.o /Users/livingroom/osx_Dev/phutureFtp/pftp_basic/FtpSession.cpp normal x86_64 c++ com.apple.compilers.gcc.4_2
+s316288045.372977
+e316288046.465516
+r1
+xCompileC
+xbuild/pftp_basic.build/Debug/pftp_basic.build/Objects-normal/x86_64/FtpSession.o
+x/Users/livingroom/osx_Dev/phutureFtp/pftp_basic/FtpSession.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.gcc.4_2
+oIn file included from /Users/livingroom/osx_Dev/phutureFtp/pftp_basic/FtpSession.h:9,
+o                 from /Users/livingroom/osx_Dev/phutureFtp/pftp_basic/FtpSession.cpp:10:
+o/Users/livingroom/osx_Dev/phutureFtp/pftp_basic/tcp.h:25:1: warning: "LOG_LINES" redefined
+oIn file included from /Users/livingroom/osx_Dev/phutureFtp/pftp_basic/FtpCommand.h:6,
+o                 from /Users/livingroom/osx_Dev/phutureFtp/pftp_basic/FtpSession.h:7,
+o                 from /Users/livingroom/osx_Dev/phutureFtp/pftp_basic/FtpSession.cpp:10:
+o/Users/livingroom/osx_Dev/phutureFtp/pftp_basic/defines.h:60:1: warning: this is the location of the previous definition
+oIn file included from /Users/livingroom/osx_Dev/phutureFtp/pftp_basic/FtpSession.h:7,
+o                 from /Users/livingroom/osx_Dev/phutureFtp/pftp_basic/FtpSession.cpp:10:
+o/Users/livingroom/osx_Dev/phutureFtp/pftp_basic/FtpCommand.h: In member function 'virtual char* FtpCmdAuthTls::AsString()':
+o/Users/livingroom/osx_Dev/phutureFtp/pftp_basic/FtpCommand.h:61: warning: deprecated conversion from string constant to 'char*'
+o/Users/livingroom/osx_Dev/phutureFtp/pftp_basic/FtpCommand.h: In member function 'virtual char* FtpCmdAsciMode::AsString()':
+o/Users/livingroom/osx_Dev/phutureFtp/pftp_basic/FtpCommand.h:67: warning: deprecated conversion from string constant to 'char*'
+o/Users/livingroom/osx_Dev/phutureFtp/pftp_basic/FtpCommand.h: In member function 'virtual char* FtpCmdBinaryMode::AsString()':
+o/Users/livingroom/osx_Dev/phutureFtp/pftp_basic/FtpCommand.h:73: warning: deprecated conversion from string constant to 'char*'
+o/Users/livingroom/osx_Dev/phutureFtp/pftp_basic/FtpCommand.h: In member function 'virtual char* FtpCmdXDUPE::AsString()':
+o/Users/livingroom/osx_Dev/phutureFtp/pftp_basic/FtpCommand.h:80: warning: deprecated conversion from string constant to 'char*'
+o/Users/livingroom/osx_Dev/phutureFtp/pftp_basic/FtpCommand.h: In member function 'virtual char* FtpCmdQuit::AsString()':
+o/Users/livingroom/osx_Dev/phutureFtp/pftp_basic/FtpCommand.h:86: warning: deprecated conversion from string constant to 'char*'
+o/Users/livingroom/osx_Dev/phutureFtp/pftp_basic/FtpSession.cpp: In member function 'int FtpSession::sendXDupe()':
+o/Users/livingroom/osx_Dev/phutureFtp/pftp_basic/FtpSession.cpp:117: warning: control reaches end of non-void function
+o/Users/livingroom/osx_Dev/phutureFtp/pftp_basic/FtpSession.cpp: In member function 'int FtpSession::Kill()':
+o/Users/livingroom/osx_Dev/phutureFtp/pftp_basic/FtpSession.cpp:102: warning: control reaches end of non-void function
+o/Users/livingroom/osx_Dev/phutureFtp/pftp_basic/FtpSession.cpp: In member function 'int FtpSession::SendCommand(FtpCommand*)':
+o/Users/livingroom/osx_Dev/phutureFtp/pftp_basic/FtpSession.cpp:97: warning: control reaches end of non-void function
+o/Users/livingroom/osx_Dev/phutureFtp/pftp_basic/FtpSession.cpp: In member function 'int FtpSession::sendLoginDetails()':
+o/Users/livingroom/osx_Dev/phutureFtp/pftp_basic/FtpSession.cpp:84: warning: control reaches end of non-void function
+o/Users/livingroom/osx_Dev/phutureFtp/pftp_basic/FtpSession.cpp: In member function 'int FtpSession::Login()':
+o/Users/livingroom/osx_Dev/phutureFtp/pftp_basic/FtpSession.cpp:48: warning: control reaches end of non-void function
+lSLF07#2@70"Compile /Users/livingroom/osx_Dev/phutureFtp/pftp_basic/FtpSession.cpp316288045#316288046#0(3250"In file included from /Users/livingroom/osx_Dev/phutureFtp/pftp_basic/FtpSession.h:9,                 from /Users/livingroom/osx_Dev/phutureFtp/pftp_basic/FtpSession.cpp:10:/Users/livingroom/osx_Dev/phutureFtp/pftp_basic/tcp.h:25:1: warning: "LOG_LINES" redefinedIn file included from /Users/livingroom/osx_Dev/phutureFtp/pftp_basic/FtpCommand.h:6,                 from /Users/livingroom/osx_Dev/phutureFtp/pftp_basic/FtpSession.h:7,                 from /Users/livingroom/osx_Dev/phutureFtp/pftp_basic/FtpSession.cpp:10:/Users/livingroom/osx_Dev/phutureFtp/pftp_basic/defines.h:60:1: warning: this is the location of the previous definitionIn file included from /Users/livingroom/osx_Dev/phutureFtp/pftp_basic/FtpSession.h:7,                 from /Users/livingroom/osx_Dev/phutureFtp/pftp_basic/FtpSession.cpp:10:/Users/livingroom/osx_Dev/phutureFtp/pftp_basic/FtpCommand.h: In member function 'virtual char* FtpCmdAuthTls::AsString()':/Users/livingroom/osx_Dev/phutureFtp/pftp_basic/FtpCommand.h:61: warning: deprecated conversion from string constant to 'char*'/Users/livingroom/osx_Dev/phutureFtp/pftp_basic/FtpCommand.h: In member function 'virtual char* FtpCmdAsciMode::AsString()':/Users/livingroom/osx_Dev/phutureFtp/pftp_basic/FtpCommand.h:67: warning: deprecated conversion from string constant to 'char*'/Users/livingroom/osx_Dev/phutureFtp/pftp_basic/FtpCommand.h: In member function 'virtual char* FtpCmdBinaryMode::AsString()':/Users/livingroom/osx_Dev/phutureFtp/pftp_basic/FtpCommand.h:73: warning: deprecated conversion from string constant to 'char*'/Users/livingroom/osx_Dev/phutureFtp/pftp_basic/FtpCommand.h: In member function 'virtual char* FtpCmdXDUPE::AsString()':/Users/livingroom/osx_Dev/phutureFtp/pftp_basic/FtpCommand.h:80: warning: deprecated conversion from string constant to 'char*'/Users/livingroom/osx_Dev/phutureFtp/pftp_basic/FtpCommand.h: In member function 'virtual char* FtpCmdQuit::AsString()':/Users/livingroom/osx_Dev/phutureFtp/pftp_basic/FtpCommand.h:86: warning: deprecated conversion from string constant to 'char*'/Users/livingroom/osx_Dev/phutureFtp/pftp_basic/FtpSession.cpp: In member function 'int FtpSession::sendXDupe()':/Users/livingroom/osx_Dev/phutureFtp/pftp_basic/FtpSession.cpp:117: warning: control reaches end of non-void function/Users/livingroom/osx_Dev/phutureFtp/pftp_basic/FtpSession.cpp: In member function 'int FtpSession::Kill()':/Users/livingroom/osx_Dev/phutureFtp/pftp_basic/FtpSession.cpp:102: warning: control reaches end of non-void function/Users/livingroom/osx_Dev/phutureFtp/pftp_basic/FtpSession.cpp: In member function 'int FtpSession::SendCommand(FtpCommand*)':/Users/livingroom/osx_Dev/phutureFtp/pftp_basic/FtpSession.cpp:97: warning: control reaches end of non-void function/Users/livingroom/osx_Dev/phutureFtp/pftp_basic/FtpSession.cpp: In member function 'int FtpSession::sendLoginDetails()':/Users/livingroom/osx_Dev/phutureFtp/pftp_basic/FtpSession.cpp:84: warning: control reaches end of non-void function/Users/livingroom/osx_Dev/phutureFtp/pftp_basic/FtpSession.cpp: In member function 'int FtpSession::Login()':/Users/livingroom/osx_Dev/phutureFtp/pftp_basic/FtpSession.cpp:48: warning: control reaches end of non-void function12(22@21""LOG_LINES" redefined316288045#175#91#3(7@84"In file included from /Users/livingroom/osx_Dev/phutureFtp/pftp_basic/FtpSession.cpp316288045#18446744073709551615#0#0(6@62"/Users/livingroom/osx_Dev/phutureFtp/pftp_basic/FtpSession.cpp316288044#10#0#10#0#0"0(7@82"In file included from /Users/livingroom/osx_Dev/phutureFtp/pftp_basic/FtpSession.h316288045#18446744073709551615#0#0(6@60"/Users/livingroom/osx_Dev/phutureFtp/pftp_basic/FtpSession.h316288045#9#0#9#0#0"0(13@78""LOG_LINES" redefined in /Users/livingroom/osx_Dev/phutureFtp/pftp_basic/tcp.h316288045#18446744073709551615#0#0(6@53"/Users/livingroom/osx_Dev/phutureFtp/pftp_basic/tcp.h316267114#25#0#25#0#0"0(6@53"/Users/livingroom/osx_Dev/phutureFtp/pftp_basic/tcp.h316267114#25#0#25#0#13""*" redefined0(22@47"This is the location of the previous definition316288045#527#121#4(7@84"In file included from /Users/livingroom/osx_Dev/phutureFtp/pftp_basic/FtpSession.cpp316288045#18446744073709551615#0#0(6@62"/Users/livingroom/osx_Dev/phutureFtp/pftp_basic/FtpSession.cpp316288044#10#0#10#0#0"0(7@82"In file included from /Users/livingroom/osx_Dev/phutureFtp/pftp_basic/FtpSession.h316288045#18446744073709551615#0#0(6@60"/Users/livingroom/osx_Dev/phutureFtp/pftp_basic/FtpSession.h316288045#7#0#7#0#0"0(7@82"In file included from /Users/livingroom/osx_Dev/phutureFtp/pftp_basic/FtpCommand.h316288045#18446744073709551615#0#0(6@60"/Users/livingroom/osx_Dev/phutureFtp/pftp_basic/FtpCommand.h316287871#6#0#6#0#0"0(13@108"This is the location of the previous definition in /Users/livingroom/osx_Dev/phutureFtp/pftp_basic/defines.h316288045#18446744073709551615#0#0(6@57"/Users/livingroom/osx_Dev/phutureFtp/pftp_basic/defines.h316267114#60#0#60#0#0"0(6@57"/Users/livingroom/osx_Dev/phutureFtp/pftp_basic/defines.h316267114#60#0#60#0#47"this is the location of the previous definition0(22@53"Deprecated conversion from string constant to 'char*'316288046#947#128#3(7@84"In file included from /Users/livingroom/osx_Dev/phutureFtp/pftp_basic/FtpSession.cpp316288046#18446744073709551615#0#0(6@62"/Users/livingroom/osx_Dev/phutureFtp/pftp_basic/FtpSession.cpp316288044#10#0#10#0#0"0(7@82"In file included from /Users/livingroom/osx_Dev/phutureFtp/pftp_basic/FtpSession.h316288046#18446744073709551615#0#0(6@60"/Users/livingroom/osx_Dev/phutureFtp/pftp_basic/FtpSession.h316288045#7#0#7#0#0"0(13@117"Deprecated conversion from string constant to 'char*' in /Users/livingroom/osx_Dev/phutureFtp/pftp_basic/FtpCommand.h316288046#18446744073709551615#0#0(6@60"/Users/livingroom/osx_Dev/phutureFtp/pftp_basic/FtpCommand.h316287871#61#0#61#0#0"0(6@60"/Users/livingroom/osx_Dev/phutureFtp/pftp_basic/FtpCommand.h316287871#61#0#61#0#49"deprecated conversion from string constant to '*'0(22@53"Deprecated conversion from string constant to 'char*'316288046#1200#128#3(7@84"In file included from /Users/livingroom/osx_Dev/phutureFtp/pftp_basic/FtpSession.cpp316288046#18446744073709551615#0#0(6@62"/Users/livingroom/osx_Dev/phutureFtp/pftp_basic/FtpSession.cpp316288044#10#0#10#0#0"0(7@82"In file included from /Users/livingroom/osx_Dev/phutureFtp/pftp_basic/FtpSession.h316288046#18446744073709551615#0#0(6@60"/Users/livingroom/osx_Dev/phutureFtp/pftp_basic/FtpSession.h316288045#7#0#7#0#0"0(13@117"Deprecated conversion from string constant to 'char*' in /Users/livingroom/osx_Dev/phutureFtp/pftp_basic/FtpCommand.h316288046#18446744073709551615#0#0(6@60"/Users/livingroom/osx_Dev/phutureFtp/pftp_basic/FtpCommand.h316287871#67#0#67#0#0"0(6@60"/Users/livingroom/osx_Dev/phutureFtp/pftp_basic/FtpCommand.h316287871#67#0#67#0#49"deprecated conversion from string constant to '*'0(22@53"Deprecated conversion from string constant to 'char*'316288046#1455#128#3(7@84"In file included from /Users/livingroom/osx_Dev/phutureFtp/pftp_basic/FtpSession.cpp316288046#18446744073709551615#0#0(6@62"/Users/livingroom/osx_Dev/phutureFtp/pftp_basic/FtpSession.cpp316288044#10#0#10#0#0"0(7@82"In file included from /Users/livingroom/osx_Dev/phutureFtp/pftp_basic/FtpSession.h316288046#18446744073709551615#0#0(6@60"/Users/livingroom/osx_Dev/phutureFtp/pftp_basic/FtpSession.h316288045#7#0#7#0#0"0(13@117"Deprecated conversion from string constant to 'char*' in /Users/livingroom/osx_Dev/phutureFtp/pftp_basic/FtpCommand.h316288046#18446744073709551615#0#0(6@60"/Users/livingroom/osx_Dev/phutureFtp/pftp_basic/FtpCommand.h316287871#73#0#73#0#0"0(6@60"/Users/livingroom/osx_Dev/phutureFtp/pftp_basic/FtpCommand.h316287871#73#0#73#0#49"deprecated conversion from string constant to '*'0(22@53"Deprecated conversion from string constant to 'char*'316288046#1705#128#3(7@84"In file included from /Users/livingroom/osx_Dev/phutureFtp/pftp_basic/FtpSession.cpp316288046#18446744073709551615#0#0(6@62"/Users/livingroom/osx_Dev/phutureFtp/pftp_basic/FtpSession.cpp316288044#10#0#10#0#0"0(7@82"In file included from /Users/livingroom/osx_Dev/phutureFtp/pftp_basic/FtpSession.h316288046#18446744073709551615#0#0(6@60"/Users/livingroom/osx_Dev/phutureFtp/pftp_basic/FtpSession.h316288045#7#0#7#0#0"0(13@117"Deprecated conversion from string constant to 'char*' in /Users/livingroom/osx_Dev/phutureFtp/pftp_basic/FtpCommand.h316288046#18446744073709551615#0#0(6@60"/Users/livingroom/osx_Dev/phutureFtp/pftp_basic/FtpCommand.h316287871#80#0#80#0#0"0(6@60"/Users/livingroom/osx_Dev/phutureFtp/pftp_basic/FtpCommand.h316287871#80#0#80#0#49"deprecated conversion from string constant to '*'0(22@53"Deprecated conversion from string constant to 'char*'316288046#1954#128#3(7@84"In file included from /Users/livingroom/osx_Dev/phutureFtp/pftp_basic/FtpSession.cpp316288046#18446744073709551615#0#0(6@62"/Users/livingroom/osx_Dev/phutureFtp/pftp_basic/FtpSession.cpp316288044#10#0#10#0#0"0(7@82"In file included from /Users/livingroom/osx_Dev/phutureFtp/pftp_basic/FtpSession.h316288046#18446744073709551615#0#0(6@60"/Users/livingroom/osx_Dev/phutureFtp/pftp_basic/FtpSession.h316288045#7#0#7#0#0"0(13@117"Deprecated conversion from string constant to 'char*' in /Users/livingroom/osx_Dev/phutureFtp/pftp_basic/FtpCommand.h316288046#18446744073709551615#0#0(6@60"/Users/livingroom/osx_Dev/phutureFtp/pftp_basic/FtpCommand.h316287871#86#0#86#0#0"0(6@60"/Users/livingroom/osx_Dev/phutureFtp/pftp_basic/FtpCommand.h316287871#86#0#86#0#49"deprecated conversion from string constant to '*'0(22@40"Control reaches end of non-void function316288046#2196#118#0(6@62"/Users/livingroom/osx_Dev/phutureFtp/pftp_basic/FtpSession.cpp316288044#117#0#117#0#40"control reaches end of non-void function0(22@40"Control reaches end of non-void function316288046#2423#118#0(6@62"/Users/livingroom/osx_Dev/phutureFtp/pftp_basic/FtpSession.cpp316288044#102#0#102#0#40"control reaches end of non-void function0(22@40"Control reaches end of non-void function316288046#2668#117#0(6@62"/Users/livingroom/osx_Dev/phutureFtp/pftp_basic/FtpSession.cpp316288044#97#0#97#0#40"control reaches end of non-void function0(22@40"Control reaches end of non-void function316288046#2906#117#0(6@62"/Users/livingroom/osx_Dev/phutureFtp/pftp_basic/FtpSession.cpp316288044#84#0#84#0#40"control reaches end of non-void function0(22@40"Control reaches end of non-void function316288046#3133#117#0(6@62"/Users/livingroom/osx_Dev/phutureFtp/pftp_basic/FtpSession.cpp316288044#48#0#48#0#40"control reaches end of non-void function0(0#0#62"/Users/livingroom/osx_Dev/phutureFtp/pftp_basic/FtpSession.cpp8640669824#1456"    cd /Users/livingroom/osx_Dev/phutureFtp/pftp_basic    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/livingroom/osx_Dev/phutureFtp/pftp_basic/build/pftp_basic.build/Debug/pftp_basic.build/pftp_basic-generated-files.hmap -I/Users/livingroom/osx_Dev/phutureFtp/pftp_basic/build/pftp_basic.build/Debug/pftp_basic.build/pftp_basic-own-target-headers.hmap -I/Users/livingroom/osx_Dev/phutureFtp/pftp_basic/build/pftp_basic.build/Debug/pftp_basic.build/pftp_basic-all-target-headers.hmap -iquote /Users/livingroom/osx_Dev/phutureFtp/pftp_basic/build/pftp_basic.build/Debug/pftp_basic.build/pftp_basic-project-headers.hmap -F/Users/livingroom/osx_Dev/phutureFtp/pftp_basic/build/Debug -I/Users/livingroom/osx_Dev/phutureFtp/pftp_basic/build/Debug/include -I/Users/livingroom/osx_Dev/phutureFtp/pftp_basic/build/pftp_basic.build/Debug/pftp_basic.build/DerivedSources/x86_64 -I/Users/livingroom/osx_Dev/phutureFtp/pftp_basic/build/pftp_basic.build/Debug/pftp_basic.build/DerivedSources -c /Users/livingroom/osx_Dev/phutureFtp/pftp_basic/FtpSession.cpp -o /Users/livingroom/osx_Dev/phutureFtp/pftp_basic/build/pftp_basic.build/Debug/pftp_basic.build/Objects-normal/x86_64/FtpSession.o0#
+
+CCompileC build/pftp_basic.build/Debug/pftp_basic.build/Objects-normal/x86_64/FxpSystem.o /Users/livingroom/osx_Dev/phutureFtp/pftp_basic/FxpSystem.cpp normal x86_64 c++ com.apple.compilers.gcc.4_2
+s316288045.224060
+e316288045.303173
+r1
+xCompileC
+xbuild/pftp_basic.build/Debug/pftp_basic.build/Objects-normal/x86_64/FxpSystem.o
+x/Users/livingroom/osx_Dev/phutureFtp/pftp_basic/FxpSystem.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.gcc.4_2
+oIn file included from /Users/livingroom/osx_Dev/phutureFtp/pftp_basic/FxpSystem.h:16,
+o                 from /Users/livingroom/osx_Dev/phutureFtp/pftp_basic/FxpSystem.cpp:11:
+o/Users/livingroom/osx_Dev/phutureFtp/pftp_basic/FtpCommand.h: In member function 'virtual char* FtpCmdAuthTls::AsString()':
+o/Users/livingroom/osx_Dev/phutureFtp/pftp_basic/FtpCommand.h:61: warning: deprecated conversion from string constant to 'char*'
+o/Users/livingroom/osx_Dev/phutureFtp/pftp_basic/FtpCommand.h: In member function 'virtual char* FtpCmdAsciMode::AsString()':
+o/Users/livingroom/osx_Dev/phutureFtp/pftp_basic/FtpCommand.h:67: warning: deprecated conversion from string constant to 'char*'
+o/Users/livingroom/osx_Dev/phutureFtp/pftp_basic/FtpCommand.h: In member function 'virtual char* FtpCmdBinaryMode::AsString()':
+o/Users/livingroom/osx_Dev/phutureFtp/pftp_basic/FtpCommand.h:73: warning: deprecated conversion from string constant to 'char*'
+o/Users/livingroom/osx_Dev/phutureFtp/pftp_basic/FtpCommand.h: In member function 'virtual char* FtpCmdXDUPE::AsString()':
+o/Users/livingroom/osx_Dev/phutureFtp/pftp_basic/FtpCommand.h:80: warning: deprecated conversion from string constant to 'char*'
+o/Users/livingroom/osx_Dev/phutureFtp/pftp_basic/FtpCommand.h: In member function 'virtual char* FtpCmdQuit::AsString()':
+o/Users/livingroom/osx_Dev/phutureFtp/pftp_basic/FtpCommand.h:86: warning: deprecated conversion from string constant to 'char*'
+lSLF07#2@69"Compile /Users/livingroom/osx_Dev/phutureFtp/pftp_basic/FxpSystem.cpp316288045#316288045#0(1433"In file included from /Users/livingroom/osx_Dev/phutureFtp/pftp_basic/FxpSystem.h:16,                 from /Users/livingroom/osx_Dev/phutureFtp/pftp_basic/FxpSystem.cpp:11:/Users/livingroom/osx_Dev/phutureFtp/pftp_basic/FtpCommand.h: In member function 'virtual char* FtpCmdAuthTls::AsString()':/Users/livingroom/osx_Dev/phutureFtp/pftp_basic/FtpCommand.h:61: warning: deprecated conversion from string constant to 'char*'/Users/livingroom/osx_Dev/phutureFtp/pftp_basic/FtpCommand.h: In member function 'virtual char* FtpCmdAsciMode::AsString()':/Users/livingroom/osx_Dev/phutureFtp/pftp_basic/FtpCommand.h:67: warning: deprecated conversion from string constant to 'char*'/Users/livingroom/osx_Dev/phutureFtp/pftp_basic/FtpCommand.h: In member function 'virtual char* FtpCmdBinaryMode::AsString()':/Users/livingroom/osx_Dev/phutureFtp/pftp_basic/FtpCommand.h:73: warning: deprecated conversion from string constant to 'char*'/Users/livingroom/osx_Dev/phutureFtp/pftp_basic/FtpCommand.h: In member function 'virtual char* FtpCmdXDUPE::AsString()':/Users/livingroom/osx_Dev/phutureFtp/pftp_basic/FtpCommand.h:80: warning: deprecated conversion from string constant to 'char*'/Users/livingroom/osx_Dev/phutureFtp/pftp_basic/FtpCommand.h: In member function 'virtual char* FtpCmdQuit::AsString()':/Users/livingroom/osx_Dev/phutureFtp/pftp_basic/FtpCommand.h:86: warning: deprecated conversion from string constant to 'char*'5(22@53"Deprecated conversion from string constant to 'char*'316288045#298#128#3(7@83"In file included from /Users/livingroom/osx_Dev/phutureFtp/pftp_basic/FxpSystem.cpp316288045#18446744073709551615#0#0(6@61"/Users/livingroom/osx_Dev/phutureFtp/pftp_basic/FxpSystem.cpp316272206#11#0#11#0#0"0(7@81"In file included from /Users/livingroom/osx_Dev/phutureFtp/pftp_basic/FxpSystem.h316288045#18446744073709551615#0#0(6@59"/Users/livingroom/osx_Dev/phutureFtp/pftp_basic/FxpSystem.h316272627#16#0#16#0#0"0(13@117"Deprecated conversion from string constant to 'char*' in /Users/livingroom/osx_Dev/phutureFtp/pftp_basic/FtpCommand.h316288045#18446744073709551615#0#0(6@60"/Users/livingroom/osx_Dev/phutureFtp/pftp_basic/FtpCommand.h316287871#61#0#61#0#0"0(6@60"/Users/livingroom/osx_Dev/phutureFtp/pftp_basic/FtpCommand.h316287871#61#0#61#0#49"deprecated conversion from string constant to '*'0(22@53"Deprecated conversion from string constant to 'char*'316288045#551#128#3(7@83"In file included from /Users/livingroom/osx_Dev/phutureFtp/pftp_basic/FxpSystem.cpp316288045#18446744073709551615#0#0(6@61"/Users/livingroom/osx_Dev/phutureFtp/pftp_basic/FxpSystem.cpp316272206#11#0#11#0#0"0(7@81"In file included from /Users/livingroom/osx_Dev/phutureFtp/pftp_basic/FxpSystem.h316288045#18446744073709551615#0#0(6@59"/Users/livingroom/osx_Dev/phutureFtp/pftp_basic/FxpSystem.h316272627#16#0#16#0#0"0(13@117"Deprecated conversion from string constant to 'char*' in /Users/livingroom/osx_Dev/phutureFtp/pftp_basic/FtpCommand.h316288045#18446744073709551615#0#0(6@60"/Users/livingroom/osx_Dev/phutureFtp/pftp_basic/FtpCommand.h316287871#67#0#67#0#0"0(6@60"/Users/livingroom/osx_Dev/phutureFtp/pftp_basic/FtpCommand.h316287871#67#0#67#0#49"deprecated conversion from string constant to '*'0(22@53"Deprecated conversion from string constant to 'char*'316288045#806#128#3(7@83"In file included from /Users/livingroom/osx_Dev/phutureFtp/pftp_basic/FxpSystem.cpp316288045#18446744073709551615#0#0(6@61"/Users/livingroom/osx_Dev/phutureFtp/pftp_basic/FxpSystem.cpp316272206#11#0#11#0#0"0(7@81"In file included from /Users/livingroom/osx_Dev/phutureFtp/pftp_basic/FxpSystem.h316288045#18446744073709551615#0#0(6@59"/Users/livingroom/osx_Dev/phutureFtp/pftp_basic/FxpSystem.h316272627#16#0#16#0#0"0(13@117"Deprecated conversion from string constant to 'char*' in /Users/livingroom/osx_Dev/phutureFtp/pftp_basic/FtpCommand.h316288045#18446744073709551615#0#0(6@60"/Users/livingroom/osx_Dev/phutureFtp/pftp_basic/FtpCommand.h316287871#73#0#73#0#0"0(6@60"/Users/livingroom/osx_Dev/phutureFtp/pftp_basic/FtpCommand.h316287871#73#0#73#0#49"deprecated conversion from string constant to '*'0(22@53"Deprecated conversion from string constant to 'char*'316288045#1056#128#3(7@83"In file included from /Users/livingroom/osx_Dev/phutureFtp/pftp_basic/FxpSystem.cpp316288045#18446744073709551615#0#0(6@61"/Users/livingroom/osx_Dev/phutureFtp/pftp_basic/FxpSystem.cpp316272206#11#0#11#0#0"0(7@81"In file included from /Users/livingroom/osx_Dev/phutureFtp/pftp_basic/FxpSystem.h316288045#18446744073709551615#0#0(6@59"/Users/livingroom/osx_Dev/phutureFtp/pftp_basic/FxpSystem.h316272627#16#0#16#0#0"0(13@117"Deprecated conversion from string constant to 'char*' in /Users/livingroom/osx_Dev/phutureFtp/pftp_basic/FtpCommand.h316288045#18446744073709551615#0#0(6@60"/Users/livingroom/osx_Dev/phutureFtp/pftp_basic/FtpCommand.h316287871#80#0#80#0#0"0(6@60"/Users/livingroom/osx_Dev/phutureFtp/pftp_basic/FtpCommand.h316287871#80#0#80#0#49"deprecated conversion from string constant to '*'0(22@53"Deprecated conversion from string constant to 'char*'316288045#1305#128#3(7@83"In file included from /Users/livingroom/osx_Dev/phutureFtp/pftp_basic/FxpSystem.cpp316288045#18446744073709551615#0#0(6@61"/Users/livingroom/osx_Dev/phutureFtp/pftp_basic/FxpSystem.cpp316272206#11#0#11#0#0"0(7@81"In file included from /Users/livingroom/osx_Dev/phutureFtp/pftp_basic/FxpSystem.h316288045#18446744073709551615#0#0(6@59"/Users/livingroom/osx_Dev/phutureFtp/pftp_basic/FxpSystem.h316272627#16#0#16#0#0"0(13@117"Deprecated conversion from string constant to 'char*' in /Users/livingroom/osx_Dev/phutureFtp/pftp_basic/FtpCommand.h316288045#18446744073709551615#0#0(6@60"/Users/livingroom/osx_Dev/phutureFtp/pftp_basic/FtpCommand.h316287871#86#0#86#0#0"0(6@60"/Users/livingroom/osx_Dev/phutureFtp/pftp_basic/FtpCommand.h316287871#86#0#86#0#49"deprecated conversion from string constant to '*'0(0#0#61"/Users/livingroom/osx_Dev/phutureFtp/pftp_basic/FxpSystem.cpp8643586048#1454"    cd /Users/livingroom/osx_Dev/phutureFtp/pftp_basic    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/livingroom/osx_Dev/phutureFtp/pftp_basic/build/pftp_basic.build/Debug/pftp_basic.build/pftp_basic-generated-files.hmap -I/Users/livingroom/osx_Dev/phutureFtp/pftp_basic/build/pftp_basic.build/Debug/pftp_basic.build/pftp_basic-own-target-headers.hmap -I/Users/livingroom/osx_Dev/phutureFtp/pftp_basic/build/pftp_basic.build/Debug/pftp_basic.build/pftp_basic-all-target-headers.hmap -iquote /Users/livingroom/osx_Dev/phutureFtp/pftp_basic/build/pftp_basic.build/Debug/pftp_basic.build/pftp_basic-project-headers.hmap -F/Users/livingroom/osx_Dev/phutureFtp/pftp_basic/build/Debug -I/Users/livingroom/osx_Dev/phutureFtp/pftp_basic/build/Debug/include -I/Users/livingroom/osx_Dev/phutureFtp/pftp_basic/build/pftp_basic.build/Debug/pftp_basic.build/DerivedSources/x86_64 -I/Users/livingroom/osx_Dev/phutureFtp/pftp_basic/build/pftp_basic.build/Debug/pftp_basic.build/DerivedSources -c /Users/livingroom/osx_Dev/phutureFtp/pftp_basic/FxpSystem.cpp -o /Users/livingroom/osx_Dev/phutureFtp/pftp_basic/build/pftp_basic.build/Debug/pftp_basic.build/Objects-normal/x86_64/FxpSystem.o0#
+
+CCompileC build/pftp_basic.build/Debug/pftp_basic.build/Objects-normal/x86_64/main.o /Users/livingroom/osx_Dev/phutureFtp/pftp_basic/main.cpp normal x86_64 c++ com.apple.compilers.gcc.4_2
+s316288580.503348
+e316288580.788905
+r0
+xCompileC
+xbuild/pftp_basic.build/Debug/pftp_basic.build/Objects-normal/x86_64/main.o
+x/Users/livingroom/osx_Dev/phutureFtp/pftp_basic/main.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@64"Compile /Users/livingroom/osx_Dev/phutureFtp/pftp_basic/main.cpp316288580#316288580#0(4343"In file included from /Users/livingroom/osx_Dev/phutureFtp/pftp_basic/FtpSession.h:9,                 from /Users/livingroom/osx_Dev/phutureFtp/pftp_basic/main.cpp:5:/Users/livingroom/osx_Dev/phutureFtp/pftp_basic/tcp.h:25:1: warning: "LOG_LINES" redefinedIn file included from /Users/livingroom/osx_Dev/phutureFtp/pftp_basic/FxpSystem.h:15,                 from /Users/livingroom/osx_Dev/phutureFtp/pftp_basic/main.cpp:4:/Users/livingroom/osx_Dev/phutureFtp/pftp_basic/defines.h:60:1: warning: this is the location of the previous definitionIn file included from /Users/livingroom/osx_Dev/phutureFtp/pftp_basic/FxpSystem.h:16,                 from /Users/livingroom/osx_Dev/phutureFtp/pftp_basic/main.cpp:4:/Users/livingroom/osx_Dev/phutureFtp/pftp_basic/FtpCommand.h: In member function 'virtual char* FtpCmdAuthTls::AsString()':/Users/livingroom/osx_Dev/phutureFtp/pftp_basic/FtpCommand.h:61: warning: deprecated conversion from string constant to 'char*'/Users/livingroom/osx_Dev/phutureFtp/pftp_basic/FtpCommand.h: In member function 'virtual char* FtpCmdAsciMode::AsString()':/Users/livingroom/osx_Dev/phutureFtp/pftp_basic/FtpCommand.h:67: warning: deprecated conversion from string constant to 'char*'/Users/livingroom/osx_Dev/phutureFtp/pftp_basic/FtpCommand.h: In member function 'virtual char* FtpCmdBinaryMode::AsString()':/Users/livingroom/osx_Dev/phutureFtp/pftp_basic/FtpCommand.h:73: warning: deprecated conversion from string constant to 'char*'/Users/livingroom/osx_Dev/phutureFtp/pftp_basic/FtpCommand.h: In member function 'virtual char* FtpCmdXDUPE::AsString()':/Users/livingroom/osx_Dev/phutureFtp/pftp_basic/FtpCommand.h:80: warning: deprecated conversion from string constant to 'char*'/Users/livingroom/osx_Dev/phutureFtp/pftp_basic/FtpCommand.h: In member function 'virtual char* FtpCmdQuit::AsString()':/Users/livingroom/osx_Dev/phutureFtp/pftp_basic/FtpCommand.h:86: warning: deprecated conversion from string constant to 'char*'/Users/livingroom/osx_Dev/phutureFtp/pftp_basic/main.cpp: In function 'void Initialise()':/Users/livingroom/osx_Dev/phutureFtp/pftp_basic/main.cpp:43: warning: deprecated conversion from string constant to 'char*'/Users/livingroom/osx_Dev/phutureFtp/pftp_basic/main.cpp:46: warning: deprecated conversion from string constant to 'char*'/Users/livingroom/osx_Dev/phutureFtp/pftp_basic/main.cpp:47: warning: deprecated conversion from string constant to 'char*'/Users/livingroom/osx_Dev/phutureFtp/pftp_basic/main.cpp:48: warning: deprecated conversion from string constant to 'char*'/Users/livingroom/osx_Dev/phutureFtp/pftp_basic/main.cpp:49: warning: deprecated conversion from string constant to 'char*'/Users/livingroom/osx_Dev/phutureFtp/pftp_basic/main.cpp:50: warning: deprecated conversion from string constant to 'char*'/Users/livingroom/osx_Dev/phutureFtp/pftp_basic/main.cpp:51: warning: deprecated conversion from string constant to 'char*'/Users/livingroom/osx_Dev/phutureFtp/pftp_basic/main.cpp:52: warning: deprecated conversion from string constant to 'char*'/Users/livingroom/osx_Dev/phutureFtp/pftp_basic/main.cpp:58: warning: deprecated conversion from string constant to 'char*'/Users/livingroom/osx_Dev/phutureFtp/pftp_basic/main.cpp:59: warning: deprecated conversion from string constant to 'char*'/Users/livingroom/osx_Dev/phutureFtp/pftp_basic/main.cpp:60: warning: deprecated conversion from string constant to 'char*'/Users/livingroom/osx_Dev/phutureFtp/pftp_basic/main.cpp: In function 'int main(int, char* const*)':/Users/livingroom/osx_Dev/phutureFtp/pftp_basic/main.cpp:79: error: expected `while' before 'std'/Users/livingroom/osx_Dev/phutureFtp/pftp_basic/main.cpp:79: error: expected `(' before 'std'/Users/livingroom/osx_Dev/phutureFtp/pftp_basic/main.cpp:79: error: expected `)' before ';' token/Users/livingroom/osx_Dev/phutureFtp/pftp_basic/main.cpp:73: warning: unused variable 'result'/Users/livingroom/osx_Dev/phutureFtp/pftp_basic/main.cpp: At global scope:/Users/livingroom/osx_Dev/phutureFtp/pftp_basic/main.cpp:80: error: expected unqualified-id before 'while'/Users/livingroom/osx_Dev/phutureFtp/pftp_basic/main.cpp:82: error: expected constructor, destructor, or type conversion before '->' token/Users/livingroom/osx_Dev/phutureFtp/pftp_basic/main.cpp:83: error: expected declaration before '}' token26(22@21""LOG_LINES" redefined316288580#168#91#3(7@78"In file included from /Users/livingroom/osx_Dev/phutureFtp/pftp_basic/main.cpp316288580#18446744073709551615#0#0(6@56"/Users/livingroom/osx_Dev/phutureFtp/pftp_basic/main.cpp316288579#5#0#5#0#0"0(7@82"In file included from /Users/livingroom/osx_Dev/phutureFtp/pftp_basic/FtpSession.h316288580#18446744073709551615#0#0(6@60"/Users/livingroom/osx_Dev/phutureFtp/pftp_basic/FtpSession.h316288045#9#0#9#0#0"0(13@78""LOG_LINES" redefined in /Users/livingroom/osx_Dev/phutureFtp/pftp_basic/tcp.h316288580#18446744073709551615#0#0(6@53"/Users/livingroom/osx_Dev/phutureFtp/pftp_basic/tcp.h316267114#25#0#25#0#0"0(6@53"/Users/livingroom/osx_Dev/phutureFtp/pftp_basic/tcp.h316267114#25#0#25#0#13""*" redefined0(22@47"This is the location of the previous definition316288580#427#121#3(7@78"In file included from /Users/livingroom/osx_Dev/phutureFtp/pftp_basic/main.cpp316288580#18446744073709551615#0#0(6@56"/Users/livingroom/osx_Dev/phutureFtp/pftp_basic/main.cpp316288579#4#0#4#0#0"0(7@81"In file included from /Users/livingroom/osx_Dev/phutureFtp/pftp_basic/FxpSystem.h316288580#18446744073709551615#0#0(6@59"/Users/livingroom/osx_Dev/phutureFtp/pftp_basic/FxpSystem.h316272627#15#0#15#0#0"0(13@108"This is the location of the previous definition in /Users/livingroom/osx_Dev/phutureFtp/pftp_basic/defines.h316288580#18446744073709551615#0#0(6@57"/Users/livingroom/osx_Dev/phutureFtp/pftp_basic/defines.h316267114#60#0#60#0#0"0(6@57"/Users/livingroom/osx_Dev/phutureFtp/pftp_basic/defines.h316267114#60#0#60#0#47"this is the location of the previous definition0(22@53"Deprecated conversion from string constant to 'char*'316288580#840#128#3(7@78"In file included from /Users/livingroom/osx_Dev/phutureFtp/pftp_basic/main.cpp316288580#18446744073709551615#0#0(6@56"/Users/livingroom/osx_Dev/phutureFtp/pftp_basic/main.cpp316288579#4#0#4#0#0"0(7@81"In file included from /Users/livingroom/osx_Dev/phutureFtp/pftp_basic/FxpSystem.h316288580#18446744073709551615#0#0(6@59"/Users/livingroom/osx_Dev/phutureFtp/pftp_basic/FxpSystem.h316272627#16#0#16#0#0"0(13@117"Deprecated conversion from string constant to 'char*' in /Users/livingroom/osx_Dev/phutureFtp/pftp_basic/FtpCommand.h316288580#18446744073709551615#0#0(6@60"/Users/livingroom/osx_Dev/phutureFtp/pftp_basic/FtpCommand.h316287871#61#0#61#0#0"0(6@60"/Users/livingroom/osx_Dev/phutureFtp/pftp_basic/FtpCommand.h316287871#61#0#61#0#49"deprecated conversion from string constant to '*'0(22@53"Deprecated conversion from string constant to 'char*'316288580#1093#128#3(7@78"In file included from /Users/livingroom/osx_Dev/phutureFtp/pftp_basic/main.cpp316288580#18446744073709551615#0#0(6@56"/Users/livingroom/osx_Dev/phutureFtp/pftp_basic/main.cpp316288579#4#0#4#0#0"0(7@81"In file included from /Users/livingroom/osx_Dev/phutureFtp/pftp_basic/FxpSystem.h316288580#18446744073709551615#0#0(6@59"/Users/livingroom/osx_Dev/phutureFtp/pftp_basic/FxpSystem.h316272627#16#0#16#0#0"0(13@117"Deprecated conversion from string constant to 'char*' in /Users/livingroom/osx_Dev/phutureFtp/pftp_basic/FtpCommand.h316288580#18446744073709551615#0#0(6@60"/Users/livingroom/osx_Dev/phutureFtp/pftp_basic/FtpCommand.h316287871#67#0#67#0#0"0(6@60"/Users/livingroom/osx_Dev/phutureFtp/pftp_basic/FtpCommand.h316287871#67#0#67#0#49"deprecated conversion from string constant to '*'0(22@53"Deprecated conversion from string constant to 'char*'316288580#1348#128#3(7@78"In file included from /Users/livingroom/osx_Dev/phutureFtp/pftp_basic/main.cpp316288580#18446744073709551615#0#0(6@56"/Users/livingroom/osx_Dev/phutureFtp/pftp_basic/main.cpp316288579#4#0#4#0#0"0(7@81"In file included from /Users/livingroom/osx_Dev/phutureFtp/pftp_basic/FxpSystem.h316288580#18446744073709551615#0#0(6@59"/Users/livingroom/osx_Dev/phutureFtp/pftp_basic/FxpSystem.h316272627#16#0#16#0#0"0(13@117"Deprecated conversion from string constant to 'char*' in /Users/livingroom/osx_Dev/phutureFtp/pftp_basic/FtpCommand.h316288580#18446744073709551615#0#0(6@60"/Users/livingroom/osx_Dev/phutureFtp/pftp_basic/FtpCommand.h316287871#73#0#73#0#0"0(6@60"/Users/livingroom/osx_Dev/phutureFtp/pftp_basic/FtpCommand.h316287871#73#0#73#0#49"deprecated conversion from string constant to '*'0(22@53"Deprecated conversion from string constant to 'char*'316288580#1598#128#3(7@78"In file included from /Users/livingroom/osx_Dev/phutureFtp/pftp_basic/main.cpp316288580#18446744073709551615#0#0(6@56"/Users/livingroom/osx_Dev/phutureFtp/pftp_basic/main.cpp316288579#4#0#4#0#0"0(7@81"In file included from /Users/livingroom/osx_Dev/phutureFtp/pftp_basic/FxpSystem.h316288580#18446744073709551615#0#0(6@59"/Users/livingroom/osx_Dev/phutureFtp/pftp_basic/FxpSystem.h316272627#16#0#16#0#0"0(13@117"Deprecated conversion from string constant to 'char*' in /Users/livingroom/osx_Dev/phutureFtp/pftp_basic/FtpCommand.h316288580#18446744073709551615#0#0(6@60"/Users/livingroom/osx_Dev/phutureFtp/pftp_basic/FtpCommand.h316287871#80#0#80#0#0"0(6@60"/Users/livingroom/osx_Dev/phutureFtp/pftp_basic/FtpCommand.h316287871#80#0#80#0#49"deprecated conversion from string constant to '*'0(22@53"Deprecated conversion from string constant to 'char*'316288580#1847#128#3(7@78"In file included from /Users/livingroom/osx_Dev/phutureFtp/pftp_basic/main.cpp316288580#18446744073709551615#0#0(6@56"/Users/livingroom/osx_Dev/phutureFtp/pftp_basic/main.cpp316288579#4#0#4#0#0"0(7@81"In file included from /Users/livingroom/osx_Dev/phutureFtp/pftp_basic/FxpSystem.h316288580#18446744073709551615#0#0(6@59"/Users/livingroom/osx_Dev/phutureFtp/pftp_basic/FxpSystem.h316272627#16#0#16#0#0"0(13@117"Deprecated conversion from string constant to 'char*' in /Users/livingroom/osx_Dev/phutureFtp/pftp_basic/FtpCommand.h316288580#18446744073709551615#0#0(6@60"/Users/livingroom/osx_Dev/phutureFtp/pftp_basic/FtpCommand.h316287871#86#0#86#0#0"0(6@60"/Users/livingroom/osx_Dev/phutureFtp/pftp_basic/FtpCommand.h316287871#86#0#86#0#49"deprecated conversion from string constant to '*'0(22@53"Deprecated conversion from string constant to 'char*'316288580#2066#124#0(6@56"/Users/livingroom/osx_Dev/phutureFtp/pftp_basic/main.cpp316288579#43#0#43#0#49"deprecated conversion from string constant to '*'0(22@53"Deprecated conversion from string constant to 'char*'316288580#2190#124#0(6@56"/Users/livingroom/osx_Dev/phutureFtp/pftp_basic/main.cpp316288579#46#0#46#0#49"deprecated conversion from string constant to '*'0(22@53"Deprecated conversion from string constant to 'char*'316288580#2314#124#0(6@56"/Users/livingroom/osx_Dev/phutureFtp/pftp_basic/main.cpp316288579#47#0#47#0#49"deprecated conversion from string constant to '*'0(22@53"Deprecated conversion from string constant to 'char*'316288580#2438#124#0(6@56"/Users/livingroom/osx_Dev/phutureFtp/pftp_basic/main.cpp316288579#48#0#48#0#49"deprecated conversion from string constant to '*'0(22@53"Deprecated conversion from string constant to 'char*'316288580#2562#124#0(6@56"/Users/livingroom/osx_Dev/phutureFtp/pftp_basic/main.cpp316288579#49#0#49#0#49"deprecated conversion from string constant to '*'0(22@53"Deprecated conversion from string constant to 'char*'316288580#2686#124#0(6@56"/Users/livingroom/osx_Dev/phutureFtp/pftp_basic/main.cpp316288579#50#0#50#0#49"deprecated conversion from string constant to '*'0(22@53"Deprecated conversion from string constant to 'char*'316288580#2810#124#0(6@56"/Users/livingroom/osx_Dev/phutureFtp/pftp_basic/main.cpp316288579#51#0#51#0#49"deprecated conversion from string constant to '*'0(22@53"Deprecated conversion from string constant to 'char*'316288580#2934#124#0(6@56"/Users/livingroom/osx_Dev/phutureFtp/pftp_basic/main.cpp316288579#52#0#52#0#49"deprecated conversion from string constant to '*'0(22@53"Deprecated conversion from string constant to 'char*'316288580#3058#124#0(6@56"/Users/livingroom/osx_Dev/phutureFtp/pftp_basic/main.cpp316288579#58#0#58#0#49"deprecated conversion from string constant to '*'0(22@53"Deprecated conversion from string constant to 'char*'316288580#3182#124#0(6@56"/Users/livingroom/osx_Dev/phutureFtp/pftp_basic/main.cpp316288579#59#0#59#0#49"deprecated conversion from string constant to '*'0(22@53"Deprecated conversion from string constant to 'char*'316288580#3306#124#0(6@56"/Users/livingroom/osx_Dev/phutureFtp/pftp_basic/main.cpp316288579#60#0#60#0#49"deprecated conversion from string constant to '*'0(4@29"Expected `while' before 'std'316288580#3531#98#0(6@56"/Users/livingroom/osx_Dev/phutureFtp/pftp_basic/main.cpp316288579#79#0#79#0#19"expected * before *0(4@25"Expected `(' before 'std'316288580#3629#94#0(6@56"/Users/livingroom/osx_Dev/phutureFtp/pftp_basic/main.cpp316288579#79#0#79#0#19"expected * before *0(4@29"Expected `)' before ';' token316288580#3723#98#0(6@56"/Users/livingroom/osx_Dev/phutureFtp/pftp_basic/main.cpp316288579#79#0#79#0#19"expected * before *0(22@24"Unused variable 'result'316288580#3821#95#0(6@56"/Users/livingroom/osx_Dev/phutureFtp/pftp_basic/main.cpp316288579#73#0#73#0#19"unused variable '*'0(23@16"At global scope:316288580#3916#75#0(6@56"/Users/livingroom/osx_Dev/phutureFtp/pftp_basic/main.cpp316288579#0#0#0#0#0"0(4@38"Expected unqualified-id before 'while'316288580#3991#107#0(6@56"/Users/livingroom/osx_Dev/phutureFtp/pftp_basic/main.cpp316288579#80#0#80#0#19"expected * before *0(4@70"Expected constructor, destructor, or type conversion before '->' token316288580#4098#139#0(6@56"/Users/livingroom/osx_Dev/phutureFtp/pftp_basic/main.cpp316288579#82#0#82#0#19"expected * before *0(4@37"Expected declaration before '}' token316288580#4237#106#0(6@56"/Users/livingroom/osx_Dev/phutureFtp/pftp_basic/main.cpp316288579#83#0#83#0#19"expected * before *0(0#0#56"/Users/livingroom/osx_Dev/phutureFtp/pftp_basic/main.cpp8643862240#1444"    cd /Users/livingroom/osx_Dev/phutureFtp/pftp_basic    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/livingroom/osx_Dev/phutureFtp/pftp_basic/build/pftp_basic.build/Debug/pftp_basic.build/pftp_basic-generated-files.hmap -I/Users/livingroom/osx_Dev/phutureFtp/pftp_basic/build/pftp_basic.build/Debug/pftp_basic.build/pftp_basic-own-target-headers.hmap -I/Users/livingroom/osx_Dev/phutureFtp/pftp_basic/build/pftp_basic.build/Debug/pftp_basic.build/pftp_basic-all-target-headers.hmap -iquote /Users/livingroom/osx_Dev/phutureFtp/pftp_basic/build/pftp_basic.build/Debug/pftp_basic.build/pftp_basic-project-headers.hmap -F/Users/livingroom/osx_Dev/phutureFtp/pftp_basic/build/Debug -I/Users/livingroom/osx_Dev/phutureFtp/pftp_basic/build/Debug/include -I/Users/livingroom/osx_Dev/phutureFtp/pftp_basic/build/pftp_basic.build/Debug/pftp_basic.build/DerivedSources/x86_64 -I/Users/livingroom/osx_Dev/phutureFtp/pftp_basic/build/pftp_basic.build/Debug/pftp_basic.build/DerivedSources -c /Users/livingroom/osx_Dev/phutureFtp/pftp_basic/main.cpp -o /Users/livingroom/osx_Dev/phutureFtp/pftp_basic/build/pftp_basic.build/Debug/pftp_basic.build/Objects-normal/x86_64/main.o1#
 
 CCompileC build/pftp_basic.build/Debug/pftp_basic.build/Objects-normal/x86_64/main.o /Users/richard/Documents/XCODE3_DEV/pftp_basic/main.cpp normal x86_64 c++ com.apple.compilers.gcc.4_2
 s316222490.580170
@@ -315,6 +578,9 @@ CCompileC build/pftp_basic.build/Debug/pftp_basic.build/Objects-normal/x86_64/tc
 r0
 
 CCompileC build/pftp_basic.build/Debug/pftp_basic.build/Objects-normal/x86_64/tcp-DBB484DFED73D052.o /Users/richard/Documents/XCODE3_DEV/pftp_basic/../../../Desktop/pftp-shit.v.1.12/src/tcp.cc normal x86_64 c++ com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/pftp_basic.build/Debug/pftp_basic.build/Objects-normal/x86_64/tcp.o /Users/livingroom/osx_Dev/phutureFtp/pftp_basic/tcp.cc normal x86_64 c++ com.apple.compilers.gcc.4_2
 r0
 
 CCompileC build/pftp_basic.build/Debug/pftp_basic.build/Objects-normal/x86_64/tcp.o /Users/richard/Documents/XCODE3_DEV/pftp_basic/../../../Desktop/pftp-shit.v.1.12/src/tcp.cc normal x86_64 c++ com.apple.compilers.gcc.4_2
@@ -369,6 +635,9 @@ r0
 CCompileC build/pftp_basic.build/Debug/pftp_basic.build/Objects-normal/x86_64/tlsutil-F2B0F3D32B221D8A.o /Users/richard/Documents/XCODE3_DEV/pftp_basic/tlsutil.cc normal x86_64 c++ com.apple.compilers.gcc.4_2
 r0
 
+CCompileC build/pftp_basic.build/Debug/pftp_basic.build/Objects-normal/x86_64/tlsutil.o /Users/livingroom/osx_Dev/phutureFtp/pftp_basic/tlsutil.cc normal x86_64 c++ com.apple.compilers.gcc.4_2
+r0
+
 CCompileC build/pftp_basic.build/Debug/pftp_basic.build/Objects-normal/x86_64/tlsutil.o /Users/richard/Documents/XCODE3_DEV/pftp_basic/../../../Desktop/pftp-shit.v.1.12/src/tlsutil.cc normal x86_64 c++ com.apple.compilers.gcc.4_2
 s316188664.201813
 e316188664.736485
@@ -394,6 +663,16 @@ xx86_64
 xc++
 xcom.apple.compilers.gcc.4_2
 lSLF07#2@65"Compile /Users/richard/Documents/XCODE3_DEV/pftp_basic/tlsutil.cc316201927#316201927#0(0"0(0#0#57"/Users/richard/Documents/XCODE3_DEV/pftp_basic/tlsutil.cc8600523392#1438"    cd /Users/richard/Documents/XCODE3_DEV/pftp_basic    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/richard/Documents/XCODE3_DEV/pftp_basic/build/pftp_basic.build/Debug/pftp_basic.build/pftp_basic-generated-files.hmap -I/Users/richard/Documents/XCODE3_DEV/pftp_basic/build/pftp_basic.build/Debug/pftp_basic.build/pftp_basic-own-target-headers.hmap -I/Users/richard/Documents/XCODE3_DEV/pftp_basic/build/pftp_basic.build/Debug/pftp_basic.build/pftp_basic-all-target-headers.hmap -iquote /Users/richard/Documents/XCODE3_DEV/pftp_basic/build/pftp_basic.build/Debug/pftp_basic.build/pftp_basic-project-headers.hmap -F/Users/richard/Documents/XCODE3_DEV/pftp_basic/build/Debug -I/Users/richard/Documents/XCODE3_DEV/pftp_basic/build/Debug/include -I/Users/richard/Documents/XCODE3_DEV/pftp_basic/build/pftp_basic.build/Debug/pftp_basic.build/DerivedSources/x86_64 -I/Users/richard/Documents/XCODE3_DEV/pftp_basic/build/pftp_basic.build/Debug/pftp_basic.build/DerivedSources -c /Users/richard/Documents/XCODE3_DEV/pftp_basic/tlsutil.cc -o /Users/richard/Documents/XCODE3_DEV/pftp_basic/build/pftp_basic.build/Debug/pftp_basic.build/Objects-normal/x86_64/tlsutil.o0#
+
+CLd /Users/livingroom/osx_Dev/phutureFtp/pftp_basic/build/Debug/pftp_basic normal x86_64
+s316288437.560207
+e316288437.605120
+r1
+xLd
+x/Users/livingroom/osx_Dev/phutureFtp/pftp_basic/build/Debug/pftp_basic
+xnormal
+xx86_64
+lSLF07#2@75"Link /Users/livingroom/osx_Dev/phutureFtp/pftp_basic/build/Debug/pftp_basic316288437#316288437#0(0"0(0#0#0"8617083104#570"    cd /Users/livingroom/osx_Dev/phutureFtp/pftp_basic    setenv MACOSX_DEPLOYMENT_TARGET 10.6    /Developer/usr/bin/g++-4.2 -arch x86_64 -isysroot /Developer/SDKs/MacOSX10.6.sdk -L/Users/livingroom/osx_Dev/phutureFtp/pftp_basic/build/Debug -F/Users/livingroom/osx_Dev/phutureFtp/pftp_basic/build/Debug -filelist /Users/livingroom/osx_Dev/phutureFtp/pftp_basic/build/pftp_basic.build/Debug/pftp_basic.build/Objects-normal/x86_64/pftp_basic.LinkFileList -mmacosx-version-min=10.6 -lssl -lcrypto -o /Users/livingroom/osx_Dev/phutureFtp/pftp_basic/build/Debug/pftp_basic0#
 
 CLd /Users/richard/Documents/XCODE3_DEV/pftp_basic/build/Debug/pftp_basic normal x86_64
 s316222490.895601
