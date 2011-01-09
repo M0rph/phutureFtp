@@ -80,7 +80,7 @@ int main (int argc, char * const argv[])
 	{
 		printf("@:>");
 		std::cin>>cmd;
-	} while (strcmp(cmd, "quit")==0);
+	} while (strcmp(cmd, "quit")!=0);
 	
 	ftpSession->Kill();
 }
