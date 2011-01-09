@@ -28,12 +28,40 @@
 
 extern void DetermineOwnIP(char *DEVICE);
 extern char own_ip[256];
+extern char okay_dir[1024];
 
 void Initialise();
 bool parseCommand(char* pCmd); 
 
 BOOKMARK *bmk = new BOOKMARK();
 FtpSession* ftpSession;
+
+
+void debuglog(char *fmt, ...) {
+	
+
+    char linebuf[2048];
+    char pidbuf[10];
+    va_list argp;
+    FILE *lf;
+    char temppath[2048];
+    time_t curtime = time(NULL);
+    //uid_t oldid = geteuid();
+		
+        va_start(argp, fmt);
+        vsnprintf(linebuf, sizeof(linebuf), fmt, argp);
+        va_end(argp);
+        snprintf(temppath, sizeof(temppath), "%spftp.debug.log", okay_dir);
+        lf = fopen(temppath, "a+");
+        if (lf != NULL) {
+            sprintf(pidbuf, "%u", getpid());
+            fprintf(lf, "%.24s [%-6.6s] %s\n", ctime(&curtime), pidbuf,
+                    linebuf);
+            fclose(lf);
+        }
+
+}
+
 
 int main (int argc, char * const argv[]) 
 {
@@ -44,6 +72,13 @@ int main (int argc, char * const argv[])
 	ftpSession = new FtpSession(bmk);
 	int result = ftpSession->Login();
 	
+	
+	if( result<0)
+	{
+		std::cout << "Failed to login";
+		exit(1);
+	}
+		
 	char cmd[256];
 
 	std::cout << "\n";
@@ -52,7 +87,6 @@ int main (int argc, char * const argv[])
 	{
 		printf("@:>");
 		scanf("%s",cmd);
-		
 	}while (parseCommand(cmd));
 	
 	ftpSession->Kill();
@@ -71,12 +105,17 @@ bool parseCommand(char* pCmd)
 		scanf("%s",cmd);
 		ftpSession->SendCommand(new FtpCmdCustom(cmd));
 	}
-	else if( strcmp(pCmd,"cmd")==0)
+	else if( strcmp(pCmd,"read")==0)
 	{
 		//ftpSession->ReadBuffer();
 	}
+	else if( strcmp(pCmd,"asci")==0)
+		ftpSession->SetAsciTransfer();
+	else if( strcmp(pCmd,"binary")==0)
+		ftpSession->SetBinaryTransfer();
+	else if( strcmp(pCmd,"stat")==0)
+		ftpSession->FtpStat("la");
 	
-
 	   
 	return true;
 }

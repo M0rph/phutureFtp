@@ -18,6 +18,11 @@ FtpCmdCustom::FtpCmdCustom(char* pCustomCmdText)
 	sprintf(commandBuffer, "%s\r\n", pCustomCmdText);
 }
 
+FtpCmdStat::FtpCmdStat(char* pFlags)
+{
+	sprintf(commandBuffer, "STAT -%s\r\n", pFlags);
+}
+
 
 FtpCmdUser::FtpCmdUser(char* pUserName)
 {

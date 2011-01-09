@@ -49,6 +49,12 @@ public:
 	FtpCmdPBSZ(int protectionLevel);	
 };
 
+class FtpCmdStat : public FtpCmdCustom
+{
+public:
+	FtpCmdStat(char* pFlags);	
+};
+
 class FtpCmdAuthTls : public FtpCommand
 {
 public:
@@ -58,13 +64,13 @@ public:
 class FtpCmdAsciMode : public FtpCommand
 {
 public:
-	char* AsString(){return "TYPE I\r\n";};
+	char* AsString(){return "TYPE A\r\n";};
 };
 
 class FtpCmdBinaryMode : public FtpCommand
 {	
 public:
-	char* AsString(){return "TYPE B\r\n";};
+	char* AsString(){return "TYPE I\r\n";};
 	
 };
 
@@ -78,7 +84,7 @@ public:
 class FtpCmdXDUPE : public FtpCommand
 {
 public:
-	char* AsString(){return "XDUPE \r\n";};	
+	char* AsString(){return "SITE XDUPE 3\r\n";};	
 };
 
 class FtpCmdQuit : public FtpCommand
@@ -86,5 +92,6 @@ class FtpCmdQuit : public FtpCommand
 public:
 	char* AsString(){return "QUIT\r\n";};	
 };
+
 
 #endif

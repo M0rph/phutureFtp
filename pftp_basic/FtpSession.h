@@ -15,6 +15,7 @@
  *  Copyright 2011 __MyCompanyName__. All rights reserved.
  *
  */
+extern void StripANSI(char *line);
 
 class FtpSession
 {
@@ -25,6 +26,7 @@ public:
 	
 	int SetAsciTransfer();
 	int SetBinaryTransfer();
+	int FtpStat(char* pFlags);
 	int Kill();
 		
 	int SendCommand(FtpCommand* ftpCommand);
@@ -39,7 +41,9 @@ private:
 	int sendXDupe();
 	
 		
+	
 		
+	FILELIST* parseStatFile(char *filename);
 };
 
 #endif
