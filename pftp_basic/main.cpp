@@ -71,10 +71,13 @@ int main (int argc, char * const argv[])
 
 	FtpSession* ftpSession = new FtpSession(bmk);
 	int result = ftpSession->Login();
+	
 	char cmd[256];
 
 	std::cout << "\n";
+	
 	do 
+	{
 		printf("@:>");
 		std::cin>>cmd;
 	} while (strcmp(cmd, "quit")==0);
