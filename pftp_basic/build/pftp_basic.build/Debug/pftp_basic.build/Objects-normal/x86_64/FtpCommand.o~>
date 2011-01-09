@@ -1,0 +1,21 @@
+In file included from /Users/livingroom/osx_Dev/phutureFtp/pftp_basic/FtpCommand.cpp:10:
+/Users/livingroom/osx_Dev/phutureFtp/pftp_basic/FtpCommand.h: In member function 'virtual char* FtpCmdAuthTls::AsString()':
+/Users/livingroom/osx_Dev/phutureFtp/pftp_basic/FtpCommand.h:66: warning: deprecated conversion from string constant to 'char*'
+/Users/livingroom/osx_Dev/phutureFtp/pftp_basic/FtpCommand.h: In member function 'virtual char* FtpCmdAsciMode::AsString()':
+/Users/livingroom/osx_Dev/phutureFtp/pftp_basic/FtpCommand.h:72: warning: deprecated conversion from string constant to 'char*'
+/Users/livingroom/osx_Dev/phutureFtp/pftp_basic/FtpCommand.h: In member function 'virtual char* FtpCmdBinaryMode::AsString()':
+/Users/livingroom/osx_Dev/phutureFtp/pftp_basic/FtpCommand.h:78: warning: deprecated conversion from string constant to 'char*'
+/Users/livingroom/osx_Dev/phutureFtp/pftp_basic/FtpCommand.h: In member function 'virtual char* FtpCmdPwd::AsString()':
+/Users/livingroom/osx_Dev/phutureFtp/pftp_basic/FtpCommand.h:85: warning: deprecated conversion from string constant to 'char*'
+/Users/livingroom/osx_Dev/phutureFtp/pftp_basic/FtpCommand.h: In member function 'virtual char* FtpCmdXDUPE::AsString()':
+/Users/livingroom/osx_Dev/phutureFtp/pftp_basic/FtpCommand.h:93: warning: deprecated conversion from string constant to 'char*'
+/Users/livingroom/osx_Dev/phutureFtp/pftp_basic/FtpCommand.h: In member function 'virtual char* FtpCmdQuit::AsString()':
+/Users/livingroom/osx_Dev/phutureFtp/pftp_basic/FtpCommand.h:99: warning: deprecated conversion from string constant to 'char*'
+/Users/livingroom/osx_Dev/phutureFtp/pftp_basic/FtpCommand.cpp: At global scope:
+/Users/livingroom/osx_Dev/phutureFtp/pftp_basic/FtpCommand.cpp:12: error: prototype for 'FtpCmdCustom::FtpCmdCustom()' does not match any in class 'FtpCmdCustom'
+/Users/livingroom/osx_Dev/phutureFtp/pftp_basic/FtpCommand.h:23: error: candidates are: FtpCmdCustom::FtpCmdCustom(const FtpCmdCustom&)
+/Users/livingroom/osx_Dev/phutureFtp/pftp_basic/FtpCommand.h:24: error:                 FtpCmdCustom::FtpCmdCustom(char*)
+/Users/livingroom/osx_Dev/phutureFtp/pftp_basic/FtpCommand.cpp: In constructor 'FtpCmdUser::FtpCmdUser(char*)':
+/Users/livingroom/osx_Dev/phutureFtp/pftp_basic/FtpCommand.cpp:22: error: no matching function for call to 'FtpCmdCustom::FtpCmdCustom()'
+/Users/livingroom/osx_Dev/phutureFtp/pftp_basic/FtpCommand.cpp:16: note: candidates are: FtpCmdCustom::FtpCmdCustom(char*)
+/Users/livingroom/osx_Dev/phutureFtp/pftp_basic/FtpCommand.h:23: note:                 FtpCmdCustom::FtpCmdCustom(const FtpCmdCustom&)

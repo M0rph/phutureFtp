@@ -1,0 +1,22 @@
+In file included from /Users/livingroom/osx_Dev/phutureFtp/pftp_basic/tcp.cc:22:
+/Users/livingroom/osx_Dev/phutureFtp/pftp_basic/tcp.h:25:1: warning: "LOG_LINES" redefined
+In file included from /Users/livingroom/osx_Dev/phutureFtp/pftp_basic/tcp.cc:21:
+/Users/livingroom/osx_Dev/phutureFtp/pftp_basic/defines.h:60:1: warning: this is the location of the previous definition
+/Users/livingroom/osx_Dev/phutureFtp/pftp_basic/tcp.cc: In member function 'void CTCP::debuglog(char*)':
+/Users/livingroom/osx_Dev/phutureFtp/pftp_basic/tcp.cc:208: warning: unused variable 'linebuf'
+/Users/livingroom/osx_Dev/phutureFtp/pftp_basic/tcp.cc:209: warning: unused variable 'pidbuf'
+/Users/livingroom/osx_Dev/phutureFtp/pftp_basic/tcp.cc:210: warning: unused variable 'argp'
+/Users/livingroom/osx_Dev/phutureFtp/pftp_basic/tcp.cc:211: warning: unused variable 'lf'
+/Users/livingroom/osx_Dev/phutureFtp/pftp_basic/tcp.cc:212: warning: unused variable 'temppath'
+/Users/livingroom/osx_Dev/phutureFtp/pftp_basic/tcp.cc:213: warning: unused variable 'curtime'
+/Users/livingroom/osx_Dev/phutureFtp/pftp_basic/tcp.cc: In member function 'bool CTCP::SecureControl()':
+/Users/livingroom/osx_Dev/phutureFtp/pftp_basic/tcp.cc:348: warning: deprecated conversion from string constant to 'char*'
+/Users/livingroom/osx_Dev/phutureFtp/pftp_basic/tcp.cc: In member function 'bool CTCP::SendData(char*)':
+/Users/livingroom/osx_Dev/phutureFtp/pftp_basic/tcp.cc:435: warning: deprecated conversion from string constant to 'char*'
+/Users/livingroom/osx_Dev/phutureFtp/pftp_basic/tcp.cc: In member function 'void CTCP::UpdateStack()':
+/Users/livingroom/osx_Dev/phutureFtp/pftp_basic/tcp.cc:620: warning: deprecated conversion from string constant to 'char*'
+/Users/livingroom/osx_Dev/phutureFtp/pftp_basic/tcp.cc:624: warning: deprecated conversion from string constant to 'char*'
+/Users/livingroom/osx_Dev/phutureFtp/pftp_basic/tcp.cc:628: warning: deprecated conversion from string constant to 'char*'
+/Users/livingroom/osx_Dev/phutureFtp/pftp_basic/tcp.cc:632: warning: deprecated conversion from string constant to 'char*'
+/Users/livingroom/osx_Dev/phutureFtp/pftp_basic/tcp.cc: In member function 'int CTCP::WaitForDataAndRead(int, int*)':
+/Users/livingroom/osx_Dev/phutureFtp/pftp_basic/tcp.cc:722: warning: deprecated conversion from string constant to 'char*'

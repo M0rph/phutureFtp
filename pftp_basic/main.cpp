@@ -29,8 +29,56 @@
 extern void DetermineOwnIP(char *DEVICE);
 extern char own_ip[256];
 
+void Initialise();
+bool parseCommand(char* pCmd); 
 
 BOOKMARK *bmk = new BOOKMARK();
+FtpSession* ftpSession;
+
+int main (int argc, char * const argv[]) 
+{
+	printf("PftpOShit");
+	
+	Initialise();
+
+	ftpSession = new FtpSession(bmk);
+	int result = ftpSession->Login();
+	
+	char cmd[256];
+
+	std::cout << "\n";
+	
+	do 
+	{
+		printf("@:>");
+		std::cin>>cmd;
+	}while (parseCommand(cmd));
+	
+	ftpSession->Kill();
+}
+bool parseCommand(char* pCmd)
+{
+	if( strcmp(pCmd, "quit")==0)
+		return false;	
+	   
+	if( strcmp(pCmd,"pwd")==0)
+	   ftpSession->SendCommand(new FtpCmdPwd());
+	else if( strcmp(pCmd,"cmd")==0)
+	{
+		char buffer[512];
+		std::cin>buffer;
+		ftpSession->SendCommand(new FtpCmdCustom(buffer));
+	}
+	else if( strcmp(pCmd,"cmd")==0)
+	{
+		//ftpSession->ReadBuffer();
+	}
+	
+
+	   
+	return true;
+}
+
 void Initialise()
 {
 	if (tls_init())
@@ -39,7 +87,7 @@ void Initialise()
 		exit(1);
 	}
 	
-
+	
 	DetermineOwnIP("en1");
 	
 	//Build test bookmark
@@ -60,27 +108,4 @@ void Initialise()
 	bmk->site_wkup = "";
 	bmk->use_pasv = 1;
 	
-}
-
-
-int main (int argc, char * const argv[]) 
-{
-	printf("PftpOShit");
-	
-	Initialise();
-
-	FtpSession* ftpSession = new FtpSession(bmk);
-	int result = ftpSession->Login();
-	
-	char cmd[256];
-
-	std::cout << "\n";
-	
-	do 
-	{
-		printf("@:>");
-		std::cin>>cmd;
-	} while (strcmp(cmd, "quit")!=0);
-	
-	ftpSession->Kill();
 }
