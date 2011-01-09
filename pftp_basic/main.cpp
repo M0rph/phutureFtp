@@ -51,7 +51,8 @@ int main (int argc, char * const argv[])
 	do 
 	{
 		printf("@:>");
-		std::cin>>cmd;
+		scanf("%s",cmd);
+		
 	}while (parseCommand(cmd));
 	
 	ftpSession->Kill();
@@ -65,9 +66,10 @@ bool parseCommand(char* pCmd)
 	   ftpSession->SendCommand(new FtpCmdPwd());
 	else if( strcmp(pCmd,"cmd")==0)
 	{
-		char buffer[512];
-		std::cin>buffer;
-		ftpSession->SendCommand(new FtpCmdCustom(buffer));
+		char cmd[512];
+		printf(":>\n");
+		scanf("%s",cmd);
+		ftpSession->SendCommand(new FtpCmdCustom(cmd));
 	}
 	else if( strcmp(pCmd,"cmd")==0)
 	{
