@@ -30,7 +30,6 @@ int FtpSession::Login() {
 		return -2;
 	}
 	
-
 	int result = authTls();
 	if(result<0)return result;
 	
@@ -105,7 +104,7 @@ int FtpSession::SendCommand(FtpCommand* ftpCommand)
 	return 1;
 }
 
-int FtpSession::FtpStat(char* pFlags)
+int FtpSession::FtpStat(char* pFlags, FILELIST* fileListing)
 {
 	char* temp_file = "/Users/livingroom/osx_Dev/phutureFtp/tempfile";
 	
@@ -114,13 +113,15 @@ int FtpSession::FtpStat(char* pFlags)
 	int result = SendCommand(new FtpCmdStat(pFlags));
 	tcpClient->SetStealth(false, temp_file);
 
-	FILELIST* fl = parseStatFile(temp_file);
-
-		
-	tcpClient->CloseData();
-	result = SetBinaryTransfer();
+	fileListing = parseStatFile(temp_file);
 	
-	}
+	for(FILELIST *f = fileListing; f!=NULL; f=f->next)
+		std::cout << f->name << "\n";
+	
+	
+	tcpClient->CloseData();
+	return result;
+}
 
 
 FILELIST* FtpSession::parseStatFile(char *filename)

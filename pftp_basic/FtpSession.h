@@ -26,7 +26,7 @@ public:
 	
 	int SetAsciTransfer();
 	int SetBinaryTransfer();
-	int FtpStat(char* pFlags);
+	int FtpStat(char* pFlags, FILELIST* fileListing);
 	int Kill();
 		
 	int SendCommand(FtpCommand* ftpCommand);

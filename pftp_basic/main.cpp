@@ -101,7 +101,7 @@ bool parseCommand(char* pCmd)
 	else if( strcmp(pCmd,"cmd")==0)
 	{
 		char cmd[512];
-		printf(":>\n");
+		printf(":>");
 		scanf("%s",cmd);
 		ftpSession->SendCommand(new FtpCmdCustom(cmd));
 	}
@@ -114,9 +114,21 @@ bool parseCommand(char* pCmd)
 	else if( strcmp(pCmd,"binary")==0)
 		ftpSession->SetBinaryTransfer();
 	else if( strcmp(pCmd,"stat")==0)
-		ftpSession->FtpStat("la");
-	
+	{
+		FILELIST* fl;
+		ftpSession->FtpStat("la", fl );
+		
+	}
+	else if( strcmp(pCmd,"mkdir")==0)
+	{
+		char cmd[512];
+		printf("dirname:>");
+		scanf("%s",cmd);
+		ftpSession->SendCommand(new FtpCmdMkDir(cmd));
+	}
 	   
+	if( strcmp(pCmd,"none")==0)
+			scanf("%s\n\n\n\n",pCmd);
 	return true;
 }
 
@@ -127,8 +139,7 @@ void Initialise()
 		std::cout << "System Tls Initialise failed";
 		exit(1);
 	}
-	
-	
+
 	DetermineOwnIP("en1");
 	
 	//Build test bookmark

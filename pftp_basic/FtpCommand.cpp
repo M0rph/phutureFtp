@@ -40,3 +40,13 @@ FtpCmdPass::FtpCmdPass(char* pUserName)
 {
 	sprintf(commandBuffer, "PASS %s\r\n", pUserName);
 }
+
+FtpCmdCwd::FtpCmdCwd(char* pPath)
+{
+	sprintf(commandBuffer, "CWD %s\r\n", pPath);
+}
+
+FtpCmdMkDir::FtpCmdMkDir(char* pPath)
+{
+	sprintf(commandBuffer, "MKDIR %s\r\n", pPath);
+}

@@ -31,6 +31,19 @@ protected:
 	char commandBuffer[250];
 };
 
+class FtpCmdCwd : public FtpCmdCustom
+{
+public:
+	FtpCmdCwd(char* pPath);
+};
+
+
+class FtpCmdMkDir : public FtpCmdCustom
+{
+public:
+	FtpCmdMkDir(char* pPath);
+};
+
 class FtpCmdUser : public FtpCmdCustom
 {
 public:
